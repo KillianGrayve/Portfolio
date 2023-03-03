@@ -142,6 +142,22 @@ export default function Experiencia() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <Card
+                            img="./img/experiencia_programacao/Github.png"
+                            alt="Imagem Github"
+                            txt__first="Github"
+                            txt__second={<p> Usando Github desde o inicio de 2022</p>}
+                            txt__third="Cursos"
+                            txt__fourth={
+                                <p>
+                                    Alura / YouTube <br />
+                                    <br />
+                                    (Experiência Média)
+                                </p>
+                            }
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Card
                             img="./img/experiencia_programacao/VsCode.png"
                             alt="Imagem VsCode"
                             txt__first="Visual Studio Code"
