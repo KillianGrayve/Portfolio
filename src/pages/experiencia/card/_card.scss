@@ -1,0 +1,73 @@
+@import '../../../components/variables/variables';
+
+.slide {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    .slide__content {
+        margin: 0;
+        width: 100%;
+        .card {
+            background: linear-gradient(180deg, $second_color 80%, $font_color-2 400%);
+            box-shadow: 0 0 10px 5px black;
+            border-radius: 10px;
+            height: 270px;
+            transition: 0.3s;
+            overflow: hidden;
+            width: 300px;
+            &:hover {
+                height: 400px;
+                transition: 0.3s;
+            }
+            .card__content {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                overflow: hidden;
+                position: relative;
+                .overlay {
+                    background: linear-gradient(180deg, $font_color-2, black 150%);
+                    border-radius: 18px 18px 50px 50px;
+                    box-shadow: 2px 2px 10px black;
+                    height: 160px;
+                    top: 0;
+                    position: absolute;
+                    width: 100%;
+                }
+                .card__img-container {
+                    height: 150px;
+                    position: relative;
+                    width: 150px;
+                    .card__img {
+                        filter: drop-shadow(2px 2px 5px black);
+                        height: 100%;
+                        margin-top: 10px 0 10px 0;
+                        object-fit: cover;
+                        width: 100%;
+                    }
+                }
+                .card__txt-content {
+                    padding: 14px 14px;
+                    text-align: center;
+                    .card__txt-first {
+                        color: $font_color-2;
+                        margin: 10px 0;
+                        text-shadow: 0 0 4px black;
+                    }
+                    .card__txt-second,
+                    .card__txt-fourth {
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                    .card__txt-third {
+                        font-size: 24px;
+                        margin: 5px;
+                        color: $font_color-2;
+                        text-shadow: 0 0 4px black;
+                    }
+                }
+            }
+        }
+    }
+}

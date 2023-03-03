@@ -1,0 +1,57 @@
+@import '../../components/variables/variables';
+
+.titulo__first,
+.titulo__second {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 2px 5px black;
+    font-size: 35px;
+}
+
+.titulo__first {
+    margin-top: 40px;
+}
+
+
+.swiper {
+    // Slide no geral
+    height: 65vh;
+    position: relative;
+    width: 70%;
+    &::before {
+        content: '';
+        background: $second_color;
+        border: 4px solid black;
+        border-radius: 40px;
+        box-shadow: 0 0 5px black, inset 5px 5px 20px black;
+        height: 50vh;
+        inset: 1px;
+        margin: 40px 0 0 68px;
+        position: absolute;
+        width: 84%;
+        // Os slides individuais
+    }
+    
+    .wisper-3d {
+        perspective: 500px;
+    }
+    
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        background: #141414e0;
+        border: 2px solid $font_color-2;
+        border-radius: 30%;
+        color: $font_color-2;
+        padding: 10px 15px 10px 15px;
+    }
+
+    .--swiper-navigation-size {
+        font-size: 20px !important;
+    }
+}

@@ -1,0 +1,39 @@
+@import '../variables/variables';
+
+.navbar {
+    align-items: center;
+    box-shadow: 0px 5px 13px black;
+    background: $main_color;
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    width: 100%;
+    .navbar__el {
+        color: $font_color-2;
+        font-size: 21px;
+        text-shadow: 0 0 30px $font_color-2;
+    }
+    .navbar__menu {
+        display: flex;
+        gap: 50px;
+    }
+}
+
+.navbar__menu li {
+    list-style: none;
+    .links {
+        color: $font_color;
+        transition: 0.3s;
+        font-size: 21px;
+        text-decoration: none;
+        &:hover {
+            color: $font_color-2;
+            text-shadow: 0 0 10px $font_color-2;
+        }
+    }
+}
+
+.active {
+    color: $font_color-2 !important;
+    text-shadow: 0 0 10px $font_color-2;
+}

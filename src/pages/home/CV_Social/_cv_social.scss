@@ -1,0 +1,19 @@
+@import '../../../components/variables/_variables.scss';
+
+.social {
+    height: 35px;
+    .social__rede {
+        display: flex;
+        font-size: 25px;
+        gap: 30px;
+        .linkedin,
+        .git,
+        .whatsapp {
+            @include icons();
+        }
+    }
+}
+
+.btnCV {
+    @include btn();
+}

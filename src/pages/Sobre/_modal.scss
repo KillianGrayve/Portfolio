@@ -1,0 +1,33 @@
+@import '../../components/variables/variables';
+
+dialog {
+    background: $second_color;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-shadow: 0 3px 10px 3px black;
+    animation: anima 0.8s;
+    .dialog__txt-first {
+        color: $font_color-2;
+        text-align: center;
+        text-shadow: 2px 2px 5px black;
+        margin: 10px;
+    }
+    .dialog__txt-second {
+        margin: 10px;
+        font-weight: 500;
+    }
+    .btnModal {
+        @include btn();
+        padding: 2px 10px !important;
+        margin: 10px 43% !important;
+    }
+}
+
+@keyframes anima {
+    0% {
+        transform: translateY(400px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

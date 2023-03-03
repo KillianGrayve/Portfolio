@@ -1,0 +1,37 @@
+@import "../../components/variables/_variables.scss";
+
+.presentation {
+    align-items: center;
+    display: flex;
+    height: 86.6vh;
+    justify-content: space-evenly;
+    .presentation__one {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .presentation__two {
+        color: $font_color-2;
+        font-size: 60px;
+        font-weight: 600;
+        text-shadow: 6px 6px 4px black;
+    }
+    .presentation__three {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .presentation__four {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    .front-end-txt {
+        color: $font_color-2;
+    }
+}
+
+.presentation__image img {
+    animation: giro 20s infinite linear;
+    filter: drop-shadow(0 0 10px black);
+    width: 300px;
+}

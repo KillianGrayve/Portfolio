@@ -1,0 +1,22 @@
+@import '../variables/variables';
+
+.footer {
+    align-items: center;
+    box-shadow: 0px -5px 13px black;
+    background: $main_color;
+    display: flex;
+    height: 80px;
+    margin-top: 40px;
+    justify-content: space-around;
+    width: 100%;
+    .footer__txt {
+        color: $font_color-2;
+        font-size: 21px;
+        text-shadow: 0 0 30px $font_color-2;
+    }
+}
+
+abbr {
+    position: relative;
+    top: 4px;
+}
