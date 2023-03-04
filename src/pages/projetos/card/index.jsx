@@ -3,12 +3,12 @@
 import './_card-projetos.scss';
 
 export default function Card(props) {
+
     return (
         <section>
             <div className="card__project">
                 <div className="card__project-content">
-
-                    <img src=".\img\geral\BgTeste.png" alt="Aaa" className="card__project-img" />
+                    <img src={props.img} alt="Aaa" className="card__project-img" />
 
                     <div className="card__project__content-txt">
                         <h2 className="card__project__tittle">
