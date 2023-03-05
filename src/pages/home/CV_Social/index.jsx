@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { AiOutlineCloudDownload } from 'react-icons/ai';
 import { RiGithubFill, RiLinkedinFill, RiWhatsappLine } from 'react-icons/ri';
 import './_cv_social.scss';

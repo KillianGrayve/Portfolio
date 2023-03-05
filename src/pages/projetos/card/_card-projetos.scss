@@ -7,12 +7,12 @@
     flex-wrap: wrap;
     width: 50vh;
     height: 215px;
-    overflow: hidden;
     position: relative;
+    overflow: hidden;
     .card__project-img {
         position: absolute;
-        width: 100%;
         height: 100%;
+        width: 100%;
     }
     .card__project__content-txt {
         height: 215px;

@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import '../../components/variables/_variables.scss';
 import Social from './CV_Social';

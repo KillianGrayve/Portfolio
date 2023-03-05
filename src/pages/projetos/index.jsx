@@ -10,8 +10,8 @@ export default function Projetos() {
         pag2: './img/geral/GeadorDeCancelamento.jpeg',
         pag3: './img/geral/GeadorDeCancelamento.jpeg',
         pag4: './img/geral/GeadorDeCancelamento.jpeg',
-        pag6: './img/geral/GeadorDeCancelamento.jpeg',
         pag5: './img/geral/GeadorDeCancelamento.jpeg',
+        pag6: './img/geral/GeadorDeCancelamento.jpeg',
     });
 
     return (
@@ -26,8 +26,8 @@ export default function Projetos() {
                                     pag2: './img/geral/GeadorDeCancelamento.jpeg',
                                     pag3: './img/geral/GeadorDeCancelamento.jpeg',
                                     pag4: './img/geral/GeadorDeCancelamento.jpeg',
-                                    pag6: './img/geral/GeadorDeCancelamento.jpeg',
                                     pag5: './img/geral/GeadorDeCancelamento.jpeg',
+                                    pag6: './img/geral/GeadorDeCancelamento.jpeg',
                                 });
                             }}
                             className="links links__first"
@@ -44,8 +44,8 @@ export default function Projetos() {
                                     pag2: './img/experiencia_programacao/Git.png',
                                     pag3: './img/experiencia_programacao/Git.png',
                                     pag4: './img/experiencia_programacao/Git.png',
-                                    pag6: './img/experiencia_programacao/Git.png',
                                     pag5: './img/experiencia_programacao/Git.png',
+                                    pag6: './img/experiencia_programacao/Git.png',
                                 });
                             }}
                             className="links links__second"
