@@ -1,5 +1,5 @@
 import { PropTypes } from 'prop-types';
-import './_card-projetos.scss';
+import './style.scss';
 
 export default function Card({ img, tittle, txt }) {
     return (

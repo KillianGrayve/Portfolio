@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import '../../components/variables/_variables.scss';
-import Social from './CV_Social';
-import './_home.scss';
+import Socials from './socials';
+import './style.scss';
 
 export default function Home() {
     return (
@@ -15,15 +15,15 @@ export default function Home() {
                     <code>
                         <Typewriter
                             words={[
-                                ' Front-end developer',
                                 ' Designer',
                                 ' Vídeo editor',
                                 ' Freelancer',
+                                ' Front-end developer',
                             ]}
                             loop={Infinity}
-                            typeSpeed={50}
-                            deleteSpeed={70}
-                            delaySpeed={900}
+                            typeSpeed={90}
+                            deleteSpeed={90}
+                            delaySpeed={100}
                             cursor
                             cursorStyle="_"
                         />
@@ -33,7 +33,7 @@ export default function Home() {
                     Bastante motivado a aprender e aperfeiçoar minhas <br />
                     habilidades. Em busca do primeiro emprego na area!
                 </p>
-                <Social />
+                <Socials />
             </div>
             <div className="presentation__image">
                 <img src="./img/geral/React_fuchsia.png" alt="Imagem giratória React" />

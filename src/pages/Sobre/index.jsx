@@ -1,7 +1,7 @@
 import { HiOutlineMail } from 'react-icons/hi';
 import { MdContentCopy } from 'react-icons/md';
-import './_modal.scss';
-import './_sobre.scss';
+import './styleModal.scss';
+import './styleSobre.scss';
 
 export default function SobreContainer() {
     const modal = document.querySelector('dialog');
@@ -43,8 +43,7 @@ export default function SobreContainer() {
                     <br /> prezando por um ambiente limpo agradável para se trabalhar.
                 </p>
 
-                <div className='btnSobre'>
-
+                <div className="btnSobre">
                     <MdContentCopy className="copy" onClick={copiar} />
 
                     <button style={{ background: 'none', border: 'none' }} type="button">

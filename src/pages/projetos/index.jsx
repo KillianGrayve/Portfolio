@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import { useState } from 'react';
 import Card from './card';
-import './_projetos.scss';
+import './style.scss';
 
 export default function Projetos() {
     const [img, setImg] = useState({
