@@ -3,7 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { React, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Header from './components/navbar';
+import Header from './components/header';
 import Experiencia from './pages/experiencia';
 import Home from './pages/home';
 import NotFound from './pages/NotFound';
