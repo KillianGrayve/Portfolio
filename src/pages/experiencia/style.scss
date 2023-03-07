@@ -6,7 +6,7 @@
     text-align: center;
     margin: 0;
     text-shadow: 2px 2px 5px black;
-    font-size: 60px;
+    font-size: calc(4rem - 2px);
 }
 
 .titulo__first {
@@ -53,6 +53,11 @@
     }
 
     .--swiper-navigation-size {
-        font-size: 20px !important;
+        font-size: 1.25rem !important;
     }
+}
+
+
+@media (max-width: 1240px) {
+    
 }

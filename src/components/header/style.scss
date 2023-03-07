@@ -15,7 +15,7 @@
         z-index: 20;
         .navbar__el {
             color: $font_color-2;
-            font-size: 30px;
+            font-size: calc(2rem - 2px);
             text-shadow: 0 0 30px $font_color-2;
         }
         .navbar__menu {
@@ -27,7 +27,7 @@
             .links {
                 color: $font_color;
                 transition: 0.3s;
-                font-size: 30px;
+                font-size: calc(2rem - 2px);
                 text-decoration: none;
                 &:hover {
                     color: $font_color-2;
@@ -42,5 +42,29 @@
     }
 }
 
+
+@media (max-width: 1600px) {
+    .box {
+        width: 100%;
+        height: 80px;
+        .navbar {
+            width: 100%;
+            height: 80px;
+            .navbar__el {
+                font-size: 1.5rem;
+            }
+            .navbar__menu li {
+                .links {
+                    font-size: 1.5rem;
+                }
+
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+
+}
 
 

@@ -1,4 +1,4 @@
-@import "../../components/variables/_variables.scss";
+@import '../../components/variables/_variables.scss';
 
 .presentation {
     align-items: center;
@@ -6,22 +6,24 @@
     height: 86.6vh;
     justify-content: space-evenly;
     color: $font_color;
+    gap: 80px;
+    overflow-x: hidden;
     .presentation__one {
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: 400;
     }
     .presentation__two {
         color: $font_color-2;
-        font-size: 90px;
+        font-size: calc(6rem - 4px);
         font-weight: 600;
         text-shadow: 6px 6px 4px black;
     }
     .presentation__three {
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: 400;
     }
     .presentation__four {
-        font-size: 35px;
+        font-size: calc(2rem + 3px);
         font-weight: 400;
         margin-top: 20px;
     }
@@ -31,8 +33,58 @@
     }
 }
 
-.presentation__image img {
-    animation: giro 20s infinite linear;
-    filter: drop-shadow(0 0 10px black);
-    width: 450px;
+@media (min-width: 1000px) {
+    .presentation {
+        justify-content: space-around !important;
+        padding: 0 30px;
+        gap: 0;
+        height: 88vh;
+        .presentation__one {
+            font-size: 2.5rem;
+        }
+        .presentation__two {
+            font-size: 2.5rem;
+        }
+        .presentation__three {
+            font-size: 1.5rem;
+        }
+        .presentation__four {
+            font-size: 1.2rem;
+        }
+        .presentation__image {
+            width: 300px !important;
+        }
+        .presentation__image img {
+            display: flex !important;
+        }
+    }
+}
+
+@media (min-width: 0px) {
+    .presentation {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 0 30px;
+        gap: 0;
+        height: 88vh;
+        .presentation__one {
+            font-size: 1.5rem;
+        }
+        .presentation__two {
+            font-size: 2.5rem;
+        }
+        .presentation__three {
+            font-size: 1.5rem;
+        }
+        .presentation__four {
+            font-size: 1.2rem;
+        }
+        .presentation__image {
+            width: 0 !important;
+        }
+        .presentation__image img {
+            display: none;
+        }
+    }
 }

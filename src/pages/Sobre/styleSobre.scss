@@ -60,26 +60,26 @@ cite {
             }
             .content__txt-first {
                 // top / left / fonts-size / font-weight
-                @include content__txt(75px, 20px, 32px, 700);
+                @include content__txt(75px, 20px, 2rem, 700);
             }
             .content__txt-second {
-                @include content__txt(120px, 20px, 20px, 500);
+                @include content__txt(120px, 20px, 1.25rem, 500);
             }
             .content__txt-third {
-                @include content__txt(130px, 110px, 15px, 700);
+                @include content__txt(130px, 110px, calc(1rem - 1px), 700);
             }
         }
     }
     .sobre__txt-first {
         // font-size / font-weight / margin-top
-        @include font-style(60px, 700, 0);
+        @include font-style(3.75rem, 700, 0);
         margin-bottom: 40px;
     }
     .sobre__txt-second {
-        @include font-style(40px, 600, -20px);
+        @include font-style(2.5rem, 600, -20px);
     }
     .sobre__txt-third {
-        @include font-style(30px, 500, -10px);
+        @include font-style(calc(2rem - 2px), 500, -10px);
     }
 
     .btn__container {
@@ -91,7 +91,7 @@ cite {
             border-radius: 10px;
             color: black;
             background: $font_color-2;
-            font-size: 45px;
+            font-size: calc(3rem - 3px);
             padding: 3px 3px;
             position: relative;
             margin-right: 20px;
@@ -102,6 +102,26 @@ cite {
                 box-shadow: 0 0 10px $font_color-2;
                 color: $font_color-2;
             }
+        }
+    }
+}
+
+
+@media (max-width: 1240px) {
+    .sobre {
+        display: flex;
+        flex-direction: column;
+        height: 89vh;
+        .box {
+            width: 300px;
+            height: 350px;
+        }
+        .sobre__txt {
+            text-align: center;
+            padding: 0 50px;
+        }
+        .btn__container {
+            justify-content: center;
         }
     }
 }

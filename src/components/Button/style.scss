@@ -19,15 +19,24 @@
         color: $font_color-2;
     }
     .btnIcon {
-        font-size: 35px;
+        font-size: calc(2rem + 3px);
     }
     .link {
         color: black;
         display: flex;
         font-weight: 500;
-        font-size: 30px;
+        font-size: calc(2rem - 2px);
         justify-content: space-around;
         gap: 10px;
         text-decoration: none;
+    }
+}
+
+@media (max-width: 1700px) {
+    .btnIcon {
+        font-size: 25px !important;
+    }
+    .link {
+        font-size: 20px !important;
     }
 }

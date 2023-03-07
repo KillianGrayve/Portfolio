@@ -19,7 +19,9 @@ export default function Social() {
                 ))}
             </ul>
 
-            <Button icon={<AiOutlineCloudDownload className='btnIcon'/>} txt='Currículo'/>
+            <div className='btn__container'>
+                <Button icon={<AiOutlineCloudDownload className="btnIcon" />} txt="Currículo" />
+            </div>
         </div>
     );
 }

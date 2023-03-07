@@ -42,8 +42,7 @@ export default function Home() {
                         </code>
                     </p>
                     <p className="presentation__four">
-                        Bastante motivado a aprender e aperfeiçoar minhas <br />
-                        habilidades. Em busca do primeiro emprego na area!
+                        Bastante motivado a aprender e aperfeiçoar minhas<br /> habilidades. Em busca do primeiro emprego na area!
                     </p>
                     <Socials />
                 </div>
