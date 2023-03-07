@@ -33,11 +33,18 @@
     }
 }
 
+.presentation__image img {
+    animation: giro 20s infinite linear;
+    filter: drop-shadow(0 0 10px black);
+    width: 300px;
+}
+
 @media (min-width: 1000px) {
     .presentation {
-        justify-content: space-around !important;
-        padding: 0 30px;
-        gap: 0;
+        justify-content: center !important;
+        padding: 0 !important;
+        width: 100%;
+        gap: 40px;
         height: 88vh;
         .presentation__one {
             font-size: 2.5rem;
@@ -52,10 +59,10 @@
             font-size: 1.2rem;
         }
         .presentation__image {
-            width: 300px !important;
         }
         .presentation__image img {
             display: flex !important;
+
         }
     }
 }

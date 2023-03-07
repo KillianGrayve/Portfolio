@@ -46,9 +46,11 @@ export default function Home() {
                     </p>
                     <Socials />
                 </div>
+
                 <div data-aos="fade-left" className="presentation__image">
                     <img src="./img/geral/React_fuchsia.png" alt="Imagem giratória React" />
                 </div>
+                
             </div>
         </section>
     );
