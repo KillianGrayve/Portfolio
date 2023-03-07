@@ -1,5 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable import/no-unresolved */
+import 'aos/dist/aos.css';
 import { A11y, Autoplay, EffectCoverflow, Navigation, Pagination, Scrollbar } from 'swiper';
 import 'swiper/css/autoplay';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -14,12 +15,13 @@ import Card from './card';
 import './style.scss';
 
 export default function Experiencia() {
+
     return (
         <section className="experiencia__container">
-            <h2 className="titulo__first">
+            <h2 data-aos='fade-up' className="titulo__first">
                 <code>Experiência em Programação</code>
             </h2>
-            <div>
+            <div data-aos='fade-up'>
                 <Swiper
                     // install Swiper modules
                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
@@ -41,7 +43,7 @@ export default function Experiencia() {
                 >
                     <SwiperSlide>
                         <Card
-                            img="./img/experiencia_programacao/HTML.png"
+                            img="./img/experiencia_programacao/JS.png"
                             alt="Imagem JavaScript"
                             txtFirst="JavaScript"
                             txtSecond={<p>Programando em JavaScript desde o meio de 2022</p>}
@@ -176,12 +178,12 @@ export default function Experiencia() {
                 </Swiper>
 
                 {/* Titulo  */}
-                <h2 className="titulo__second">
+                <h2 data-aos='fade-up' className="titulo__second">
                     <code>Experiência profissional</code>
                 </h2>
 
                 {/* Experiência profissional */}
-                <Swiper
+                <Swiper data-aos='fade-up'
                     // install Swiper modules
                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
                     spaceBetween={0}
@@ -293,12 +295,12 @@ export default function Experiencia() {
                 </Swiper>
 
                 {/* Titulo  */}
-                <h2 className="titulo__second">
+                <h2 data-aos='fade-up' className="titulo__second">
                     <code>Experiência Geral</code>
                 </h2>
 
                 {/* Experiência profissional */}
-                <Swiper
+                <Swiper data-aos='fade-up'
                     // install Swiper modules
                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
                     spaceBetween={0}

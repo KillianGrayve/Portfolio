@@ -13,7 +13,7 @@ export default function Card({ img, tittle, txt }) {
                             <code>{tittle}</code>
                         </h2>
                         <p className="card__project__txt-first">{txt}</p>
-
+                        
                         <button className="btnCard" type="button">
                             {' '}
                             Ver site

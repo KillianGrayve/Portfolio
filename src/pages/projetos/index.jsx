@@ -1,17 +1,35 @@
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import { useState } from 'react';
+import Footer from '../../components/footer';
 import Card from './card';
 import './style.scss';
 
 export default function Projetos() {
+
     const [img, setImg] = useState({
-        pag1: './img/geral/GeadorDeCancelamento.jpeg',
-        pag2: './img/geral/GeadorDeCancelamento.jpeg',
-        pag3: './img/geral/GeadorDeCancelamento.jpeg',
-        pag4: './img/geral/GeadorDeCancelamento.jpeg',
-        pag5: './img/geral/GeadorDeCancelamento.jpeg',
-        pag6: './img/geral/GeadorDeCancelamento.jpeg',
+        site1: './img/geral/GeadorDeCancelamento.jpeg',
+        site2: './img/geral/GeadorDeCancelamento.jpeg',
+        site3: './img/geral/GeadorDeCancelamento.jpeg',
+        site4: './img/geral/GeadorDeCancelamento.jpeg',
+        site5: './img/geral/GeadorDeCancelamento.jpeg',
+        site6: './img/geral/GeadorDeCancelamento.jpeg',
+    });
+    const [tittle, setTittle] = useState({
+        site1: 'Future',
+        site2: 'Future',
+        site3: 'Future',
+        site4: 'Future',
+        site5: 'Future',
+        site6: 'Future',
+    });
+    const [desc, setDesc] = useState({
+        site1: 'Bote seu nome e seu sexo e descubra de que jeito você será cancelado.',
+        site2: 'Future',
+        site3: 'Future',
+        site4: 'Future',
+        site5: 'Future',
+        site6: 'Future',
     });
 
     return (
@@ -22,48 +40,96 @@ export default function Projetos() {
                         <p
                             onClick={() => {
                                 setImg({
-                                    pag1: './img/geral/GeadorDeCancelamento.jpeg',
-                                    pag2: './img/geral/GeadorDeCancelamento.jpeg',
-                                    pag3: './img/geral/GeadorDeCancelamento.jpeg',
-                                    pag4: './img/geral/GeadorDeCancelamento.jpeg',
-                                    pag5: './img/geral/GeadorDeCancelamento.jpeg',
-                                    pag6: './img/geral/GeadorDeCancelamento.jpeg',
+                                    site1: './img/geral/GeadorDeCancelamento.jpeg',
+                                    site2: './img/geral/GeadorDeCancelamento.jpeg',
+                                    site3: './img/geral/GeadorDeCancelamento.jpeg',
+                                    site4: './img/geral/GeadorDeCancelamento.jpeg',
+                                    site5: './img/geral/GeadorDeCancelamento.jpeg',
+                                    site6: './img/geral/GeadorDeCancelamento.jpeg',
+                                });
+                                setTittle({
+                                    site1: 'Future',
+                                    site2: 'Future',
+                                    site3: 'Future',
+                                    site4: 'Future',
+                                    site5: 'Future',
+                                    site6: 'Future',
+                                });
+                                setDesc({
+                                    site1: 'Future',
+                                    site2: 'Future',
+                                    site3: 'Future',
+                                    site4: 'Future',
+                                    site5: 'Future',
+                                    site6: 'Future',
                                 });
                             }}
                             className="links links__first"
                         >
                             {' '}
-                            pagina 1{' '}
+                            Pagina 1{' '}
                         </p>
                     </li>
                     <li>
                         <p
                             onClick={() => {
                                 setImg({
-                                    pag1: './img/experiencia_programacao/Git.png',
-                                    pag2: './img/experiencia_programacao/Git.png',
-                                    pag3: './img/experiencia_programacao/Git.png',
-                                    pag4: './img/experiencia_programacao/Git.png',
-                                    pag5: './img/experiencia_programacao/Git.png',
-                                    pag6: './img/experiencia_programacao/Git.png',
+                                    site1: './img/experiencia_programacao/Git.png',
+                                    site2: './img/experiencia_programacao/Git.png',
+                                    site3: './img/experiencia_programacao/Git.png',
+                                    site4: './img/experiencia_programacao/Git.png',
+                                    site5: './img/experiencia_programacao/Git.png',
+                                    site6: './img/experiencia_programacao/Git.png',
+                                });
+                                setTittle({
+                                    site1: 'Future',
+                                    site2: 'Future',
+                                    site3: 'Future',
+                                    site4: 'Future',
+                                    site5: 'Future',
+                                    site6: 'Future',
+                                });
+                                setDesc({
+                                    site1: 'Future',
+                                    site2: 'Future',
+                                    site3: 'Future',
+                                    site4: 'Future',
+                                    site5: 'Future',
+                                    site6: 'Future',
                                 });
                             }}
                             className="links links__second"
                         >
                             {' '}
-                            pagina 2{' '}
+                            Pagina 2{' '}
                         </p>
                     </li>
                     <li>
                         <p
                             onClick={() => {
                                 setImg({
-                                    pag1: './img/experiencia_programacao/Reactjs.png',
-                                    pag2: './img/experiencia_programacao/Reactjs.png',
-                                    pag3: './img/experiencia_programacao/Reactjs.png',
-                                    pag4: './img/experiencia_programacao/Reactjs.png',
-                                    pag5: './img/experiencia_programacao/Reactjs.png',
-                                    pag6: './img/experiencia_programacao/Reactjs.png',
+                                    site1: './img/experiencia_programacao/Reactjs.png',
+                                    site2: './img/experiencia_programacao/Reactjs.png',
+                                    site3: './img/experiencia_programacao/Reactjs.png',
+                                    site4: './img/experiencia_programacao/Reactjs.png',
+                                    site5: './img/experiencia_programacao/Reactjs.png',
+                                    site6: './img/experiencia_programacao/Reactjs.png',
+                                });
+                                setTittle({
+                                    site1: 'Future',
+                                    site2: 'Future',
+                                    site3: 'Future',
+                                    site4: 'Future',
+                                    site5: 'Future',
+                                    site6: 'Future',
+                                });
+                                setDesc({
+                                    site1: 'Future',
+                                    site2: 'Future',
+                                    site3: 'Future',
+                                    site4: 'Future',
+                                    site5: 'Future',
+                                    site6: 'Future',
                                 });
                             }}
                             className="links links__third"
@@ -76,75 +142,21 @@ export default function Projetos() {
             </div>
             <div className="cards__container">
                 <div className="cards__content">
-                    {/* 1 */}
-                    <Card
-                        className="card__first"
-                        img={img.pag1}
-                        tittle="Gerador de cancelamento"
-                        txt={
-                            <p>
-                                Bote seu nome e seu sexo e descubra de que jeito você será
-                                cancelado.
-                            </p>
-                        }
-                    />
-                    {/* 2 */}
-                    <Card
-                        img={img.pag2}
-                        tittle="Gerador de cancelamento"
-                        txt={
-                            <p>
-                                Bote seu nome e seu sexo e descubra de que jeito você será
-                                cancelado.
-                            </p>
-                        }
-                    />
-                    {/* 3 */}
-                    <Card
-                        img={img.pag3}
-                        tittle="Gerador de cancelamento"
-                        txt={
-                            <p>
-                                Bote seu nome e seu sexo e descubra de que jeito você será
-                                cancelado.
-                            </p>
-                        }
-                    />
-                    {/* 4 */}
-                    <Card
-                        img={img.pag4}
-                        tittle="Gerador de cancelamento"
-                        txt={
-                            <p>
-                                Bote seu nome e seu sexo e descubra de que jeito você será
-                                cancelado.
-                            </p>
-                        }
-                    />
-                    {/* 5 */}
-                    <Card
-                        img={img.pag5}
-                        tittle="Gerador de cancelamento"
-                        txt={
-                            <p>
-                                Bote seu nome e seu sexo e descubra de que jeito você será
-                                cancelado.
-                            </p>
-                        }
-                    />
-                    {/* 6 */}
-                    <Card
-                        img={img.pag6}
-                        tittle="Gerador de cancelamento"
-                        txt={
-                            <p>
-                                Bote seu nome e seu sexo e descubra de que jeito você será
-                                cancelado.
-                            </p>
-                        }
-                    />
+                    {/* Site 1 */}
+                    <Card img={img.site1} tittle={tittle.site1} txt={<p>{desc.site1}</p>} />
+                    {/* Site 2 */}
+                    <Card img={img.site2} tittle={tittle.site2} txt={<p>{desc.site2}</p>} />
+                    {/* Site 3 */}
+                    <Card img={img.site3} tittle={tittle.site3} txt={<p>{desc.site3}</p>} />
+                    {/* Site 4 */}
+                    <Card img={img.site4} tittle={tittle.site4} txt={<p>{desc.site4}</p>} />
+                    {/* Site 5 */}
+                    <Card img={img.site5} tittle={tittle.site5} txt={<p>{desc.site5}</p>} />
+                    {/* Site 6 */}
+                    <Card img={img.site6} tittle={tittle.site6} txt={<p>{desc.site6}</p>} />
                 </div>
             </div>
+            <Footer />
         </section>
     );
 }

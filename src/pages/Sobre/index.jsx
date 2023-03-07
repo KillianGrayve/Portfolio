@@ -22,7 +22,7 @@ export default function SobreContainer() {
 
     return (
         <section className="sobre">
-            <div className="box">
+            <div data-aos="fade-right" className="box">
                 <div className="content">
                     <h2 className="content__txt-first">Eric Lideme</h2>
                     <h2 className="content__txt-second"> 19 anos</h2>
@@ -31,19 +31,20 @@ export default function SobreContainer() {
                 </div>
             </div>
             <div className="sobre__txt">
-                <h1 className="sobre__txt-first">
-                    Sobre <code>mim</code>
-                </h1>
-                <h2 className="sobre__txt-second">São paulo, Capital</h2>
-                <p className="sobre__txt-third">
-                    Bastante interessado em aprender coisas novas
-                    <br /> e assim desenvolver minhas habilidades. Confiante
-                    <br /> na minha capacidade de aprendizado e precisão no
-                    <br /> que me foi ensinado. Bem organizado e sempre
-                    <br /> prezando por um ambiente limpo agradável para se trabalhar.
-                </p>
-
-                <div className="btnSobre">
+                <div data-aos='fade-left'>
+                    <h1 className="sobre__txt-first">
+                        Sobre <code>mim</code>
+                    </h1>
+                    <h2 className="sobre__txt-second">São paulo, Capital</h2>
+                    <p className="sobre__txt-third">
+                        Bastante interessado em aprender coisas novas
+                        <br /> e assim desenvolver minhas habilidades. Confiante
+                        <br /> na minha capacidade de aprendizado e precisão no
+                        <br /> que me foi ensinado. Bem organizado e sempre
+                        <br /> prezando por um ambiente limpo agradável para se trabalhar.
+                    </p>
+                </div>
+                <div data-aos='fade-zoom' data-aos-delay='700' className="btnSobre">
                     <MdContentCopy className="copy" onClick={copiar} />
 
                     <button style={{ background: 'none', border: 'none' }} type="button">

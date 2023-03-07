@@ -3,6 +3,8 @@ import Tilt from 'react-parallax-tilt';
 import './style.scss';
 
 export default function Slide({ img, alt, txtFirst, txtSecond, txtThird, txtFourth }) {
+
+
     return (
         <section className="slide">
             <div className="slide__content">
