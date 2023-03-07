@@ -5,23 +5,24 @@
     display: flex;
     height: 86.6vh;
     justify-content: space-evenly;
+    color: $font_color;
     .presentation__one {
-        font-size: 25px;
-        font-weight: 600;
+        font-size: 40px;
+        font-weight: 400;
     }
     .presentation__two {
         color: $font_color-2;
-        font-size: 60px;
+        font-size: 90px;
         font-weight: 600;
         text-shadow: 6px 6px 4px black;
     }
     .presentation__three {
-        font-size: 25px;
-        font-weight: 500;
+        font-size: 40px;
+        font-weight: 400;
     }
     .presentation__four {
-        font-size: 20px;
-        font-weight: 600;
+        font-size: 35px;
+        font-weight: 400;
         margin-top: 20px;
     }
 
@@ -33,5 +34,5 @@
 .presentation__image img {
     animation: giro 20s infinite linear;
     filter: drop-shadow(0 0 10px black);
-    width: 300px;
+    width: 450px;
 }

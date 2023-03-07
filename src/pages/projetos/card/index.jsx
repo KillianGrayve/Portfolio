@@ -1,4 +1,5 @@
 import { PropTypes } from 'prop-types';
+import Button from '../../../components/Button';
 import './style.scss';
 
 export default function Card({ img, tittle, txt }) {
@@ -13,11 +14,8 @@ export default function Card({ img, tittle, txt }) {
                             <code>{tittle}</code>
                         </h2>
                         <p className="card__project__txt-first">{txt}</p>
-                        
-                        <button className="btnCard" type="button">
-                            {' '}
-                            Ver site
-                        </button>
+
+                        <Button txt="Ver site" class2='btnCard'/>
                     </div>
                 </div>
             </div>

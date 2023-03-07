@@ -1,0 +1,33 @@
+@import '../variables/variables';
+
+.btn {
+    cursor: pointer;
+    background: $font_color-hover;
+    border: none;
+    border: 3px solid transparent;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px black;
+    transition: 0.5s;
+    text-decoration: none;
+    padding: 8px 20px 8px 15px;
+    position: relative;
+    outline: none;
+    &:hover {
+        background: none;
+        border: 3px solid $font_color-2;
+        box-shadow: 0 0 10px $font_color-2;
+        color: $font_color-2;
+    }
+    .btnIcon {
+        font-size: 35px;
+    }
+    .link {
+        color: black;
+        display: flex;
+        font-weight: 500;
+        font-size: 30px;
+        justify-content: space-around;
+        gap: 10px;
+        text-decoration: none;
+    }
+}

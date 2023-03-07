@@ -1,11 +1,26 @@
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import Footer from '../../components/footer';
 import Card from './card';
 import './style.scss';
 
 export default function Projetos() {
+
+    const pag1 = useRef()
+    const pag2 = useRef()
+    const pag3 = useRef()
+
+    const removeActive = () => {
+        pag1.current.classList.remove('active')
+        pag2.current.classList.remove('active')
+        pag3.current.classList.remove('active')
+    }
+
+    const active = (pag) => {
+        removeActive()
+        pag.current.classList.add('active')
+    }
 
     const [img, setImg] = useState({
         site1: './img/geral/GeadorDeCancelamento.jpeg',
@@ -16,7 +31,7 @@ export default function Projetos() {
         site6: './img/geral/GeadorDeCancelamento.jpeg',
     });
     const [tittle, setTittle] = useState({
-        site1: 'Future',
+        site1: 'Gerador de cancelamento',
         site2: 'Future',
         site3: 'Future',
         site4: 'Future',
@@ -32,13 +47,15 @@ export default function Projetos() {
         site6: 'Future',
     });
 
+    
     return (
         <section className="projetos">
             <div className="list__container">
                 <ul className="projetos__list">
                     <li>
-                        <p
+                        <p   ref={pag1}
                             onClick={() => {
+                                active(pag1)
                                 setImg({
                                     site1: './img/geral/GeadorDeCancelamento.jpeg',
                                     site2: './img/geral/GeadorDeCancelamento.jpeg',
@@ -64,15 +81,17 @@ export default function Projetos() {
                                     site6: 'Future',
                                 });
                             }}
-                            className="links links__first"
+                            className="links_pag links__first active"
                         >
                             {' '}
                             Pagina 1{' '}
                         </p>
                     </li>
                     <li>
-                        <p
+                        <p  ref={pag2}
+                            className="links_pag links__second"
                             onClick={() => {
+                                active(pag2)
                                 setImg({
                                     site1: './img/experiencia_programacao/Git.png',
                                     site2: './img/experiencia_programacao/Git.png',
@@ -98,15 +117,15 @@ export default function Projetos() {
                                     site6: 'Future',
                                 });
                             }}
-                            className="links links__second"
                         >
                             {' '}
                             Pagina 2{' '}
                         </p>
                     </li>
                     <li>
-                        <p
+                        <p  ref={pag3}
                             onClick={() => {
+                                active(pag3)
                                 setImg({
                                     site1: './img/experiencia_programacao/Reactjs.png',
                                     site2: './img/experiencia_programacao/Reactjs.png',
@@ -132,7 +151,7 @@ export default function Projetos() {
                                     site6: 'Future',
                                 });
                             }}
-                            className="links links__third"
+                            className="links_pag links__third"
                         >
                             {' '}
                             Pagina 3{' '}

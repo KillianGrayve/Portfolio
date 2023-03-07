@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { RxViewHorizontal, RxViewVertical } from 'react-icons/rx';
 import { Typewriter } from 'react-simple-typewriter';
 import '../../components/variables/_variables.scss';
@@ -14,13 +13,13 @@ export default function Home() {
 
     return (
         <section>
-            <ul className='angles__list'>
+            <ul className="angles__list">
                 {list.map((e) => (
                     <Angles href={e.href} classe={e.classe} icon={e.icon} />
                 ))}
             </ul>
-            <div  className="presentation">
-                <div  data-aos='fade-right' className="presentation__txt">
+            <div className="presentation">
+                <div data-aos="fade-right" className="presentation__txt">
                     <p className="presentation__one ">Olá, eu me chamo</p>
                     <p className="presentation__two">Eric Lideme</p>
                     <p className="presentation__three">
@@ -48,7 +47,7 @@ export default function Home() {
                     </p>
                     <Socials />
                 </div>
-                <div  data-aos='fade-left' className="presentation__image">
+                <div data-aos="fade-left" className="presentation__image">
                     <img src="./img/geral/React_fuchsia.png" alt="Imagem giratória React" />
                 </div>
             </div>

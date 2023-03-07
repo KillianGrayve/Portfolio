@@ -1,5 +1,6 @@
 import { HiOutlineMail } from 'react-icons/hi';
 import { MdContentCopy } from 'react-icons/md';
+import Button from '../../components/Button';
 import './styleModal.scss';
 import './styleSobre.scss';
 
@@ -31,7 +32,7 @@ export default function SobreContainer() {
                 </div>
             </div>
             <div className="sobre__txt">
-                <div data-aos='fade-left'>
+                <div data-aos="fade-left">
                     <h1 className="sobre__txt-first">
                         Sobre <code>mim</code>
                     </h1>
@@ -44,17 +45,11 @@ export default function SobreContainer() {
                         <br /> prezando por um ambiente limpo agradável para se trabalhar.
                     </p>
                 </div>
-                <div data-aos='fade-zoom' data-aos-delay='700' className="btnSobre">
+
+                <div data-aos="fade-zoom" data-aos-delay="700" className='btn__container'>
                     <MdContentCopy className="copy" onClick={copiar} />
 
-                    <button style={{ background: 'none', border: 'none' }} type="button">
-                        <a className="btnEmail" href="mailto:Ericlideme.p@hotmail.com">
-                            <cite>
-                                <HiOutlineMail />
-                            </cite>
-                            E-mail
-                        </a>
-                    </button>
+                    <Button icon={<HiOutlineMail />} txt="Email" href='mailto:Ericlideme.p@hotmail.com'/>
                 </div>
 
                 <dialog>

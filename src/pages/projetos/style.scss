@@ -1,7 +1,7 @@
 @import '../../components/variables/variables';
 
 .projetos {
-    height: 100vh;
+    height: 90vh;
     .list__container {
         display: flex;
         justify-content: center;
@@ -12,22 +12,18 @@
             border-radius: 30px;
             box-shadow: 2px 2px 10px black;
             display: flex;
-            height: 40px;
-            margin: 50px 0;
+            height: 60px;
+            margin: 80px 0;
             justify-content: space-around;
             padding: 10px;
             width: 50%;
-            .links {
+            .links_pag {
                 cursor: pointer;
-                border-left: 2px solid black;
                 color: $font_color;
-                padding: 10px 73px;
+                padding: 20px 40px;  
                 &:hover {
                     color: $font_color-2;
                 }
-            }
-            .links__first {
-                border: none !important;
             }
         }
     }
@@ -47,4 +43,7 @@
     }
 }
 
+.active {
+    color: $font_color-2 !important;
+}
 

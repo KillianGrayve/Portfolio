@@ -5,30 +5,24 @@
     margin-top: 30px;
     gap: 10px;
     display: flex;
+    font-size: 25px;
     flex-direction: row;
     position: absolute;
     .angles {
         width: 20px;
-        padding: 5px 10px !important;
-        border: 1px solid $font_color-2 !important;
+        padding: 10px 20px !important;
+        border: 2px solid $font_color-2 !important;
         @include icons();
     }
 }
 
 .social {
-    height: 35px;
-    .social__rede {
-        display: flex;
-        font-size: 25px;
-        gap: 30px;
-        .linkedin,
-        .git,
-        .whatsapp {
-            @include icons();
-        }
+    display: flex;
+    font-size: 45px;
+    gap: 30px;
+    .linkedin,
+    .git,
+    .whatsapp {
+        @include icons();
     }
-}
-
-.btnCV {
-    @include btn();
 }

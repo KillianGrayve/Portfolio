@@ -15,13 +15,12 @@ import Card from './card';
 import './style.scss';
 
 export default function Experiencia() {
-
     return (
         <section className="experiencia__container">
-            <h2 data-aos='fade-up' className="titulo__first">
+            <h2 data-aos="fade-up" className="titulo__first">
                 <code>Experiência em Programação</code>
             </h2>
-            <div data-aos='fade-up'>
+            <div data-aos="fade-up">
                 <Swiper
                     // install Swiper modules
                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
@@ -178,12 +177,13 @@ export default function Experiencia() {
                 </Swiper>
 
                 {/* Titulo  */}
-                <h2 data-aos='fade-up' className="titulo__second">
+                <h2 data-aos="fade-up" className="titulo__second">
                     <code>Experiência profissional</code>
                 </h2>
 
                 {/* Experiência profissional */}
-                <Swiper data-aos='fade-up'
+                <Swiper
+                    data-aos="fade-up"
                     // install Swiper modules
                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
                     spaceBetween={0}
@@ -295,12 +295,13 @@ export default function Experiencia() {
                 </Swiper>
 
                 {/* Titulo  */}
-                <h2 data-aos='fade-up' className="titulo__second">
+                <h2 data-aos="fade-up" className="titulo__second">
                     <code>Experiência Geral</code>
                 </h2>
 
                 {/* Experiência profissional */}
-                <Swiper data-aos='fade-up'
+                <Swiper
+                    data-aos="fade-up"
                     // install Swiper modules
                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
                     spaceBetween={0}

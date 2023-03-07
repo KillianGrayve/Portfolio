@@ -11,12 +11,12 @@
             background: linear-gradient(180deg, $second_color 80%, $font_color-2 400%);
             box-shadow: 0 0 10px 5px black;
             border-radius: 10px;
-            height: 270px;
+            height: 445px;
             transition: 0.3s;
             overflow: hidden;
-            width: 300px;
+            width: 500px;
             &:hover {
-                height: 400px;
+                height: 680px;
                 transition: 0.3s;
             }
             .card__content {
@@ -30,15 +30,15 @@
                     background: linear-gradient(180deg, $font_color-2, black 150%);
                     border-radius: 18px 18px 50px 50px;
                     box-shadow: 2px 2px 10px black;
-                    height: 160px;
+                    height: 260px;
                     top: 0;
                     position: absolute;
                     width: 100%;
                 }
                 .card__img-container {
-                    height: 150px;
+                    height: 250px;
                     position: relative;
-                    width: 150px;
+                    width: 250px;
                     .card__img {
                         filter: drop-shadow(2px 2px 5px black);
                         height: 100%;
@@ -52,16 +52,17 @@
                     text-align: center;
                     .card__txt-first {
                         color: $font_color-2;
+                        font-size: 50px;
                         margin: 10px 0;
                         text-shadow: 0 0 4px black;
                     }
                     .card__txt-second,
                     .card__txt-fourth {
-                        font-size: 16px;
+                        font-size: 29px;
                         font-weight: 500;
                     }
                     .card__txt-third {
-                        font-size: 24px;
+                        font-size: 40px;
                         margin: 5px;
                         color: $font_color-2;
                         text-shadow: 0 0 4px black;
