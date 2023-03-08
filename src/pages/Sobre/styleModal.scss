@@ -1,25 +1,20 @@
 @import '../../components/variables/variables';
 
 dialog {
+    animation: anima 0.8s;
     background: $second_color;
     border-radius: 20px;
-    padding: 0 10px;
     box-shadow: 0 3px 10px 3px black;
-    animation: anima 0.8s;
+    padding: 0 10px;
     .dialog__txt-first {
         color: $font_color-2;
+        margin: 10px;
         text-align: center;
         text-shadow: 2px 2px 5px black;
-        margin: 10px;
     }
     .dialog__txt-second {
-        margin: 10px;
         font-weight: 500;
-    }
-    .btnModal {
-        @include btn();
-        padding: 2px 10px !important;
-        margin: 10px 43% !important;
+        margin: 10px;
     }
 }
 

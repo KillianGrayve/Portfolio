@@ -1,19 +1,19 @@
 @import '../../../components/variables/_variables.scss';
 
 .angles__list {
-    width: 30%;
-    gap: 20px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
     left: -15px;
     margin-top: 40px;
     position: absolute;
+    width: 30%;
     .angles {
-        width: 20px;
-        padding: 10px 5px;
-        border: 2px solid $font_color-2 !important;
         @include icons();
         border-radius: 0 !important;
+        border: 2px solid $font_color-2 !important;
+        padding: 10px 5px;
+        width: 20px;
     }
 }
 
@@ -40,15 +40,13 @@
 
 @media (min-width: 0) {
     .angles__list {
-        font-size: 20px;
         display: none;
-        .angles {
-        }
+        font-size: 20px;
     }
 
     .social {
-        justify-content: center;
         font-size: 30px;
+        justify-content: center;
     }
 }
 
@@ -65,8 +63,8 @@
 
     .social {
         justify-content: start !important;
-        padding: 0 !important;
         font-size: 25px;
+        padding: 0 !important;
     }
 }
 
@@ -76,8 +74,8 @@
     }
 
     .social {
+        font-size: 30px;
         justify-content: start !important;
         padding: 0 !important;
-        font-size: 30px;
     }
 }

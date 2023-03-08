@@ -19,9 +19,9 @@
             list-style: none;
             .links {
                 color: $font_color;
-                transition: 0.3s;
                 font-size: calc(2rem - 2px);
                 text-decoration: none;
+                transition: 0.3s;
                 &:hover {
                     color: $font_color-2;
                     text-shadow: 0 0 10px $font_color-2;
@@ -41,9 +41,9 @@
         width: 100%;
     .navbar {
         height: 70px;
-        width: 100%;
-        position: static;
         justify-content: center;
+        position: static;
+        width: 100%;
         .navbar__el {
             font-size: 1.75rem;
         }
@@ -60,8 +60,6 @@
 @media (min-width: 800px) {
     .navbar {
         justify-content: space-around !important;
-        .navbar__el {
-        }
         .navbar__menu li {
             display: flex !important;
             .links {

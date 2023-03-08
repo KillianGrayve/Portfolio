@@ -37,10 +37,10 @@
 @media (min-width: 0px) {
     .presentation {
         display: flex;
+        height: 88vh; 
+        gap: 0;
         justify-content: center;
         text-align: center;
-        gap: 0;
-        height: 88vh; 
         overflow-x: hidden;
         .presentation__one {
             font-size: 1.5rem;
@@ -62,11 +62,11 @@
 
 @media (min-width: 1000px) {
     .presentation {
+        gap: 40px;
         justify-content: space-evenly;
         padding: 0 !important;
-        width: 100%;
-        gap: 40px;
         text-align: start;
+        width: 100%;
         .presentation__image {
             width: 300px;
         }

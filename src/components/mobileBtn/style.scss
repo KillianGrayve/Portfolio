@@ -1,37 +1,37 @@
 @import '../variables/variables';
 
 .nav {
-    position: fixed;
     bottom: 15px;
     margin: 0 auto;
+    position: fixed;
     width: 100%;
     z-index: 20;
     .mobile__menu {
-        display: flex;
-        justify-content: center;
         align-items: center;
+        background: $main_color;
+        border-radius: 80%;
+        box-shadow: 0px 5px 13px black;
+        display: flex;
         flex-direction: column;
         gap: 5px;
-        width: 50px;
-        box-shadow: 0px 5px 13px black;
-        background: $main_color;
-        padding: 15px 5px !important;
-        border-radius: 80%;
+        justify-content: center;
         margin: 0 auto;
+        padding: 15px 5px !important;
+        width: 50px;
         &:hover .navbar__mobile-box {
             background: $main_color;
-            width: 200px;
             height: 200px;
-            transition: 0.3s;
             transform: translateX(0px);
+            transition: 0.3s;
+            width: 200px;
         }
         .line__first,
         .line__second,
         .line__third {
-            height: 3px;
-            width: 30px;
             background-color: $font_color-2;
+            height: 3px;
             margin-bottom: 3px;
+            width: 30px;
         }
     }
     .navbar__mobile {
@@ -40,30 +40,30 @@
         width: 100%;
         z-index: -1;
         .navbar__mobile-box {
-            overflow: hidden;
-            width: 0px;
-            display: flex;
             align-items: center;
-            height: 0px;
-            position: absolute;
-            bottom: 50px;
             background-color: transparent;
             border-radius: 20px;
-            transition: 0.3s;
+            bottom: 50px;
+            display: flex;
+            height: 0px;
             padding: 10px;
-            z-index: -1;
+            position: absolute;
+            transition: 0.3s;
             transform: translateX(-50px);
+            overflow: hidden;
+            width: 0px;
+            z-index: -1;
             .navbar__mobile-links {
-                font-size: 1.25rem;
                 display: flex;
                 flex-direction: column;
-                text-align: center;
-                padding: 0 10px !important;
+                font-size: 1.25rem;
                 gap: 17px; 
+                padding: 0 10px !important;
+                text-align: center;
                 .links {
-                    text-decoration: none;
                     color: $font_color;
                     padding: 7px 40px;
+                    text-decoration: none;
                 }
             }
         }

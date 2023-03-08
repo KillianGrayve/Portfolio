@@ -22,8 +22,8 @@
             transition: 0.3s;
         }
         &:hover .card__project__tittle {
-            top: 0;
             transition: 0.3s;
+            top: 0;
         }
         &:hover .card__project__txt-first,
         &:hover .btnCard {
@@ -31,25 +31,25 @@
             transition: 0.3s;
         }
         .card__project__tittle {
-            top: -100px;
             font-weight: 600;
             margin: 0 0 10px 0;
             position: relative;
             transition: 0.3s;
+            top: -100px;
         }
         .card__project__txt-first {
+            bottom: -300px;
             color: $font_color;
             font-weight: 500;
-            bottom: -300px;
             margin-top: 10px;
             position: relative;
             transition: 0.3s;
         }
     }
     .btnCard {
-        padding: 5px 10px;
-        bottom: -200px;
         margin-top: 10px;
+        bottom: -200px;
+        padding: 5px 10px;
     }
 }
 
@@ -57,8 +57,8 @@
 
 @media (min-width: 0) {
     .card__project {
-        width: 50vh;
         height: 180px;
+        width: 50vh;
     }
     .card__project__tittle {
         font-size: 1.2rem;

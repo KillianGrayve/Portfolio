@@ -5,8 +5,8 @@ cite {
 }
 
 .sobre {
-    display: flex;
     color: $font_color;
+    display: flex;
     text-shadow: 4px 4px 2px black;
     overflow-x: hidden;
     .box {
@@ -15,41 +15,41 @@ cite {
         position: relative;
         overflow: hidden;
         &::before {
-            content: '';
-            position: absolute;
-            inset: -80px 100px;
-            background: linear-gradient(90deg, $font_color-2, black 140%);
-            transition: 1s;
             animation: giro 4s linear infinite;
+            background: linear-gradient(90deg, $font_color-2, black 140%);
+            content: '';
+            inset: -80px 100px;
+            transition: 1s;
+            position: absolute;
         }
         &:hover::before {
             inset: -300px -330px;
         }
         &::after {
-            content: '';
-            position: absolute;
-            inset: 4px;
             background: $second_color;
             border-radius: 20px;
+            content: '';
+            inset: 4px;
+            position: absolute;
         }
         .content {
             border: 3px solid black;
-            inset: 7px;
             border-radius: 20px;
+            inset: 7px;
             position: absolute;
-            z-index: 3;
             overflow: hidden;
+            z-index: 3;
             .content__img {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
                 border-radius: 20px;
+                left: 0;
                 filter: drop-shadow(4px 4px 6px black);
+                height: 100%;
                 position: relative;
+                position: absolute;
                 transition: 0.5s;
+                top: 0;
+                object-fit: cover;
+                width: 100%;
                 &:hover,
                 .box:hover {
                     opacity: 0;
@@ -73,13 +73,13 @@ cite {
         margin-top: 30px;
         .copy {
             border: 3px solid transparent;
-            box-shadow: 3px 3px 10px black;
-            border-radius: 10px;
-            color: black;
             background: $font_color-2;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px black;
+            color: black;
+            margin-right: 20px;
             padding: 3px 3px;
             position: relative;
-            margin-right: 20px;
             transition: 0.3s;
             &:hover {
                 background: none;
@@ -93,19 +93,19 @@ cite {
 
 @media (min-width: 0) {
     .sobre {
+        align-items: center;
         height: 140vh;
         flex-direction: column;
-        justify-content: center;
         margin: 0 auto;
-        align-items: center;
+        justify-content: center;
         .box {
-            min-width: 200px;
-            width: 200px;
-            min-height: 200px;
             height: 300px;
             margin: 0 auto;
             margin: 0 !important;
+            min-height: 200px;
+            min-width: 200px;
             padding: 0 !important;
+            width: 200px;
         }
         .sobre__txt {
             text-align: center;
@@ -123,9 +123,9 @@ cite {
         }
 
         .btn__container {
-            justify-content: center;
-            padding: 0 20px;
             margin-bottom: 60px;
+            padding: 0 20px;
+            justify-content: center;
             .copy {
                 font-size: 2rem;
             }
@@ -135,17 +135,17 @@ cite {
 
 @media (min-width: 800px) {
     .sobre {
-        gap: 30px;
-        justify-content: center;
+        align-items: center;
         flex-direction: row;
         height: 85vh;
-        align-items: center;
+        gap: 30px;
+        justify-content: center;
         .box {
-            min-width: 200px;
-            width: 200px;
-            min-height: 200px;
             height: 300px;
             margin-top: 40px;
+            min-width: 200px;
+            min-height: 200px;
+            width: 200px;
         }
         .sobre__txt {
             text-align: start;
@@ -164,8 +164,8 @@ cite {
 
         .btn__container {
             justify-content: start;
-            padding: 0 20px;
             margin-bottom: 60px;
+            padding: 0 20px;
             .copy {
                 font-size: 2rem;
             }
