@@ -7,7 +7,7 @@ import './style.scss';
 
 export default function Home() {
     const list = [
-        { href: '/', classe: 'angles', icon: <RxViewHorizontal /> },
+        { href: '/', classe: 'angles activeIcon', icon: <RxViewHorizontal /> },
         { href: '/', classe: 'angles', icon: <RxViewVertical /> },
     ];
 
@@ -48,7 +48,7 @@ export default function Home() {
                 </div>
 
                 <div data-aos="fade-left" className="presentation__image">
-                    <img src="./img/geral/React_fuchsia.png" alt="Imagem giratória React" />
+                    <img className='presentation__image-react' src="./img/geral/React_fuchsia.png" alt="Imagem giratória React" />
                 </div>
                 
             </div>

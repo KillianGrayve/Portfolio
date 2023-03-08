@@ -3,7 +3,7 @@ import './_footer.scss';
 
 export default function Footer() {
     return (
-        <footer className="footer">
+        <footer>
             <h2 className="footer__txt">
                 Copyright <abbr><BiCopyright /></abbr>
             </h2>

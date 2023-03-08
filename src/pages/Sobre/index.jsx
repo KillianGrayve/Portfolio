@@ -1,6 +1,6 @@
 import { HiOutlineMail } from 'react-icons/hi';
 import { MdContentCopy } from 'react-icons/md';
-import Button from '../../components/Button';
+import Button from '../../components/button';
 import './styleModal.scss';
 import './styleSobre.scss';
 

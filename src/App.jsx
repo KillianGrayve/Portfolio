@@ -4,11 +4,13 @@ import 'aos/dist/aos.css';
 import { React, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/header';
+import MobileBtn from './components/mobileBtn/index';
 import Experiencia from './pages/experiencia';
 import Home from './pages/home';
 import NotFound from './pages/NotFound';
 import Projetos from './pages/projetos';
 import Sobre from './pages/Sobre';
+import MobileBtnSpace from './components/mobileBtnSpace';
 
 export default function App() {
     useEffect(() => {
@@ -18,6 +20,7 @@ export default function App() {
     return (
         <BrowserRouter>
             <Header />
+            <MobileBtn />
             <Routes>
                 <Route path="/home" element={<Home />} />
                 <Route path="/sobre" element={<Sobre />} />
@@ -25,6 +28,7 @@ export default function App() {
                 <Route path="/projetos" element={<Projetos />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
+            <MobileBtnSpace />
         </BrowserRouter>
     );
 }

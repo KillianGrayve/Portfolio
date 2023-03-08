@@ -32,11 +32,20 @@
     }
 }
 
-@media (max-width: 1700px) {
+@media (min-width: 0px) {
     .btnIcon {
-        font-size: 25px !important;
+        font-size: calc(1.5rem + 1px) !important;
     }
     .link {
-        font-size: 20px !important;
+        font-size: 1.25rem !important;
+    }
+}
+
+@media (min-width: 1920px) {
+    .btnIcon {
+        font-size: 2rem !important;
+    }
+    .link {
+        font-size: 1.75rem !important;
     }
 }

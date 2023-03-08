@@ -1,21 +1,14 @@
 @import '../variables/variables';
 
 .box {
-    width: 100%;
-    height: 120px;
     .navbar {
         align-items: center;
         box-shadow: 0px 5px 13px black;
         background: $main_color;
         display: flex;
-        height: 120px;
-        justify-content: space-around;
-        width: 100%;
-        position: fixed;
         z-index: 20;
         .navbar__el {
             color: $font_color-2;
-            font-size: calc(2rem - 2px);
             text-shadow: 0 0 30px $font_color-2;
         }
         .navbar__menu {
@@ -42,29 +35,26 @@
     }
 }
 
-
-@media (max-width: 1600px) {
+@media (min-width: 0px) {
     .box {
+        height: 60px;
         width: 100%;
-        height: 80px;
-        .navbar {
-            width: 100%;
-            height: 80px;
-            .navbar__el {
-                font-size: 1.5rem;
-            }
-            .navbar__menu li {
-                .links {
-                    font-size: 1.5rem;
-                }
-
+    .navbar {
+        height: 70px;
+        width: 100%;
+        justify-content: center;
+        position: static;
+        .navbar__el {
+            font-size: 1.75rem;
+        }
+        .navbar__menu li {
+            display: none !important;
+            .links {
+                display: none !important;
             }
         }
     }
-}
-
-@media (max-width: 650px) {
-
+    }
 }
 
 
