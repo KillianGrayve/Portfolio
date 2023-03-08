@@ -80,7 +80,7 @@
 @media (min-width: 800px) {
     .swiper {
         height: 87vh;
-        width: 160vh !important;
+        width: 120vh !important;
         // Slide no geral
         &::before {
             height: 65vh;
@@ -91,7 +91,7 @@
 
     .titulo__first,
     .titulo__second {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     
 }

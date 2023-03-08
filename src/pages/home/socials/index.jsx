@@ -2,7 +2,7 @@ import { AiOutlineCloudDownload } from 'react-icons/ai';
 import { RiGithubFill, RiLinkedinFill, RiWhatsappFill } from 'react-icons/ri';
 import Button from '../../../components/button';
 import IconList from './iconList';
-import './style.scss';
+import './angles.scss';
 
 export default function Social() {
     const list = [

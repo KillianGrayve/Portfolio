@@ -2,20 +2,20 @@ import { RxViewHorizontal, RxViewVertical } from 'react-icons/rx';
 import { Typewriter } from 'react-simple-typewriter';
 import '../../components/variables/_variables.scss';
 import Socials from './socials';
-import Angles from './socials/angles';
-import './style.scss';
+import './socials.scss';
+import NavList from '../../components/props/navList/index';
 
 export default function Home() {
     const list = [
-        { href: '/', classe: 'angles activeIcon', icon: <RxViewHorizontal /> },
-        { href: '/', classe: 'angles', icon: <RxViewVertical /> },
+        { onde: '/home', classe: 'angles', title: 'Modo Horizontal', txt: <RxViewHorizontal /> },
+        { onde: '/homev', classe: 'angles', title: 'Modo Vertical', txt: <RxViewVertical /> },
     ];
 
     return (
         <section>
             <ul className="angles__list">
                 {list.map((e) => (
-                    <Angles href={e.href} classe={e.classe} icon={e.icon} />
+                    <NavList onde={e.onde} classe={e.classe} txt={e.txt} title={e.title} />
                 ))}
             </ul>
             <div className="presentation">
@@ -42,15 +42,19 @@ export default function Home() {
                         </code>
                     </p>
                     <p className="presentation__four">
-                        Bastante motivado a aprender e aperfeiçoar minhas<br /> habilidades. Em busca do primeiro emprego na area!
+                        Bastante motivado a aprender e aperfeiçoar minhas
+                        <br /> habilidades. Em busca do primeiro emprego na area!
                     </p>
                     <Socials />
                 </div>
 
                 <div data-aos="fade-left" className="presentation__image">
-                    <img className='presentation__image-react' src="./img/geral/React_fuchsia.png" alt="Imagem giratória React" />
+                    <img
+                        className="presentation__image-react"
+                        src="./img/geral/React_fuchsia.png"
+                        alt="Imagem giratória React"
+                    />
                 </div>
-                
             </div>
         </section>
     );

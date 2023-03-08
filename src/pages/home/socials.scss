@@ -5,6 +5,8 @@
     display: flex;
     color: $font_color;
     overflow-x: hidden;
+    background: $main_color;
+    box-shadow: 0 0 10px 5px black;
     .presentation__txt {
         text-shadow: 4px 4px 2px black;
         .presentation__one {
@@ -37,7 +39,8 @@
 @media (min-width: 0px) {
     .presentation {
         display: flex;
-        height: 88vh; 
+        height: 88vh;
+        width: 100%; 
         gap: 0;
         justify-content: center;
         text-align: center;

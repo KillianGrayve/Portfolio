@@ -19,7 +19,6 @@
             list-style: none;
             .links {
                 color: $font_color;
-                font-size: calc(2rem - 2px);
                 text-decoration: none;
                 transition: 0.3s;
                 &:hover {
@@ -28,7 +27,7 @@
                 }
             }
             .active {
-                color: $font_color-2 !important;
+                color: $font_color-2;
                 text-shadow: 0 0 10px $font_color-2;
             }
         }
@@ -37,7 +36,7 @@
 
 @media (min-width: 0px) {
     .box {
-        height: 80px;
+        height: 70px;
         width: 100%;
     .navbar {
         height: 70px;
@@ -59,9 +58,11 @@
 
 @media (min-width: 800px) {
     .navbar {
+        position: fixed !important;
         justify-content: space-around !important;
         .navbar__menu li {
             display: flex !important;
+            font-size: 1.4rem !important;
             .links {
                 display: flex  !important;
             }

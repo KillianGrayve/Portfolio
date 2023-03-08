@@ -104,10 +104,10 @@
 
 @media (min-width: 800px) {
     .card {
-        width: 350px;
+        width: 320px;
         height: 330px;
         &:hover {
-            height: 500px;
+            height: 520px;
             transition: 0.3s;
         }
         .overlay {

@@ -2,7 +2,7 @@
 
 body {
     --swiper-navigation-size: 25px;
-    background: $third_color;
+    background: $second_color;
     background-size: cover;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
@@ -41,5 +41,5 @@ code {
 }
 
 ::-webkit-scrollbar-track {
-    background: $second_color;
+    background: $main_color;
 }

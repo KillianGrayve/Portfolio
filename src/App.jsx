@@ -11,6 +11,7 @@ import NotFound from './pages/NotFound';
 import Projetos from './pages/projetos';
 import Sobre from './pages/Sobre';
 import MobileBtnSpace from './components/mobileBtn/mobileBtnSpace';
+import Vertical from './pages/vertical';
 
 export default function App() {
     useEffect(() => {
@@ -26,6 +27,7 @@ export default function App() {
                 <Route path="/sobre" element={<Sobre />} />
                 <Route path="/experiencia" element={<Experiencia />} />
                 <Route path="/projetos" element={<Projetos />} />
+                <Route path='/homev' element={<Vertical />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
             <MobileBtnSpace />

@@ -1,26 +1,24 @@
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import { useRef, useState } from 'react';
-import Footer from '../../components/footer';
 import Card from './cards';
 import './style.scss';
 
 export default function Projetos() {
-
-    const pag1 = useRef()
-    const pag2 = useRef()
-    const pag3 = useRef()
+    const pag1 = useRef();
+    const pag2 = useRef();
+    const pag3 = useRef();
 
     const removeActive = () => {
-        pag1.current.classList.remove('active')
-        pag2.current.classList.remove('active')
-        pag3.current.classList.remove('active')
-    }
+        pag1.current.classList.remove('active');
+        pag2.current.classList.remove('active');
+        pag3.current.classList.remove('active');
+    };
 
     const active = (pag) => {
-        removeActive()
-        pag.current.classList.add('active')
-    }
+        removeActive();
+        pag.current.classList.add('active');
+    };
 
     const [img, setImg] = useState({
         site1: './img/geral/GeadorDeCancelamento.jpeg',
@@ -41,15 +39,15 @@ export default function Projetos() {
         site4: 'Future',
     });
 
-    
     return (
         <section className="projetos">
             <div className="list__container">
                 <ul className="projetos__list">
                     <li>
-                        <p   ref={pag1}
+                        <p
+                            ref={pag1}
                             onClick={() => {
-                                active(pag1)
+                                active(pag1);
                                 setImg({
                                     site1: './img/geral/GeadorDeCancelamento.jpeg',
                                     site2: './img/geral/GeadorDeCancelamento.jpeg',
@@ -76,10 +74,11 @@ export default function Projetos() {
                         </p>
                     </li>
                     <li>
-                        <p  ref={pag2}
+                        <p
+                            ref={pag2}
                             className="links_pag links__second"
                             onClick={() => {
-                                active(pag2)
+                                active(pag2);
                                 setImg({
                                     site1: './img/experiencia_programacao/Git.png',
                                     site2: './img/experiencia_programacao/Git.png',
@@ -105,9 +104,10 @@ export default function Projetos() {
                         </p>
                     </li>
                     <li>
-                        <p  ref={pag3}
+                        <p
+                            ref={pag3}
                             onClick={() => {
-                                active(pag3)
+                                active(pag3);
                                 setImg({
                                     site1: './img/experiencia_programacao/Reactjs.png',
                                     site2: './img/experiencia_programacao/Reactjs.png',
@@ -147,7 +147,6 @@ export default function Projetos() {
                     <Card img={img.site4} tittle={tittle.site4} txt={<p>{desc.site4}</p>} />
                 </div>
             </div>
-            <Footer />
         </section>
     );
 }

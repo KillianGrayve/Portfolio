@@ -2,6 +2,8 @@
 
 .projetos {
     height: 86vh;
+    background: $main_color;
+    box-shadow: 0 0 10px 5px black;
     .list__container {
         display: flex;
         justify-content: center;
@@ -30,7 +32,6 @@
         display: flex;
         justify-content: center;
         margin: 0 auto;
-        width: 70%;
         .cards__content {
             display: flex;
             flex-wrap: wrap;
@@ -50,7 +51,7 @@
 
 @media (min-width: 0) {
     .projetos {
-        height: 180vh;
+        height: 100%;
     }
     .projetos__list {
         width: 80%;
@@ -60,6 +61,9 @@
     }
     .cards__container {
         flex-direction: column;
+        .cards__content {
+            margin-bottom: 50px !important;
+        }
     }
 }
 
@@ -68,8 +72,7 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        height: 90vh !important;
-        justify-content: space-between;
+        height: 93vh !important;
     }
     .projetos {
         height: 0vh;
@@ -79,5 +82,6 @@
     }
     .cards__container {
         flex-direction: row;
+        width: 100% !important;
     }
 }

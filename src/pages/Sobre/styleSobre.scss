@@ -18,7 +18,7 @@ cite {
             animation: giro 4s linear infinite;
             background: linear-gradient(90deg, $font_color-2, black 140%);
             content: '';
-            inset: -80px 100px;
+            inset: -80px 60px;
             transition: 1s;
             position: absolute;
         }
@@ -141,11 +141,11 @@ cite {
         gap: 30px;
         justify-content: center;
         .box {
-            height: 300px;
+            height: 350px;
             margin-top: 40px;
             min-width: 200px;
             min-height: 200px;
-            width: 200px;
+            width: 250px;
         }
         .sobre__txt {
             text-align: start;
@@ -164,8 +164,8 @@ cite {
 
         .btn__container {
             justify-content: start;
-            margin-bottom: 60px;
             padding: 0 20px;
+            margin-bottom: 60px;
             .copy {
                 font-size: 2rem;
             }
