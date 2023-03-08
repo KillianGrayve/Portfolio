@@ -20,6 +20,8 @@
         width: 50px;
         &:hover .navbar__mobile-box {
             background: $main_color;
+            box-shadow: 0 0 10px black;
+            border: 1px solid black;
             height: 200px;
             transform: translateX(0px);
             transition: 0.3s;
@@ -42,7 +44,7 @@
         .navbar__mobile-box {
             align-items: center;
             background-color: transparent;
-            border-radius: 20px;
+            border-radius: 20px ;
             bottom: 50px;
             display: flex;
             height: 0px;

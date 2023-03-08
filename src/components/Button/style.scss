@@ -9,7 +9,6 @@
     box-shadow: 3px 3px 10px black;
     transition: 0.5s;
     text-decoration: none;
-    padding: 8px 20px 8px 15px;
     position: relative;
     outline: none;
     &:hover {
@@ -23,9 +22,14 @@
         color: black;
         display: flex;
         font-weight: 500;
+        padding: 8px 20px 8px 15px;
         justify-content: space-around;
         gap: 10px;
         text-decoration: none;
+        &:hover {
+            color: $font_color-2;
+        }
+        
     }
 }
 

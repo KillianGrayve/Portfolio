@@ -41,8 +41,8 @@ export default function Projetos() {
 
     return (
         <section className="projetos">
-            <div className="list__container">
-                <ul className="projetos__list">
+            <div data-aos="zoomIn" className="list__container">
+                <ul  className="projetos__list">
                     <li>
                         <p
                             ref={pag1}
@@ -136,7 +136,7 @@ export default function Projetos() {
                 </ul>
             </div>
             <div className="cards__container">
-                <div className="cards__content">
+                <div data-aos="zoomIn" className="cards__content">
                     {/* Site 1 */}
                     <Card img={img.site1} tittle={tittle.site1} txt={<p>{desc.site1}</p>} />
                     {/* Site 2 */}

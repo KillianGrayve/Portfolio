@@ -1,9 +1,11 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 import { RxViewHorizontal, RxViewVertical } from 'react-icons/rx';
 import { Typewriter } from 'react-simple-typewriter';
+import NavList from '../../components/props/navList/index';
 import '../../components/variables/_variables.scss';
 import Socials from './socials';
 import './socials.scss';
-import NavList from '../../components/props/navList/index';
 
 export default function Home() {
     const list = [

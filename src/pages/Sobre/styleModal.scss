@@ -15,6 +15,15 @@ dialog {
     .dialog__txt-second {
         font-weight: 500;
         margin: 10px;
+        color: $font_color
+    }
+    .btnModal {
+        padding: 2px 6px !important;
+        margin-left: 115px;
+        margin-bottom: 10px;
+        .link {
+            padding: 0 !important;
+        }
     }
 }
 

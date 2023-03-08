@@ -57,9 +57,7 @@ export default function SobreContainer() {
                     <p className="dialog__txt-second">
                         Email: <code>Ericlideme.p@hotmail.com</code>
                     </p>
-                    <button onClick={modalClose} className="btnModal" type="button">
-                        Ok
-                    </button>
+                    <Button txt='Ok' class2='btnModal' fun={modalClose}/>
                 </dialog>
             </div>
         </section>
