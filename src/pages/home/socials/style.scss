@@ -17,6 +17,10 @@
     }
 }
 
+.btn__container {
+    padding: 0 !important;
+}
+
 .activeIcon {
     color: black !important;
     background: $font_color-2;
@@ -63,5 +67,17 @@
         justify-content: start !important;
         padding: 0 !important;
         font-size: 25px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .angles__list {
+        display: flex !important;
+    }
+
+    .social {
+        justify-content: start !important;
+        padding: 0 !important;
+        font-size: 30px;
     }
 }

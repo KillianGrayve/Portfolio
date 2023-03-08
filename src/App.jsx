@@ -10,7 +10,7 @@ import Home from './pages/home';
 import NotFound from './pages/NotFound';
 import Projetos from './pages/projetos';
 import Sobre from './pages/Sobre';
-import MobileBtnSpace from './components/mobileBtnSpace';
+import MobileBtnSpace from './components/mobileBtn/mobileBtnSpace';
 
 export default function App() {
     useEffect(() => {

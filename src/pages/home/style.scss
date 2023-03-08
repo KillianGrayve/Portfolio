@@ -39,9 +39,8 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        padding: 0 30px;
         gap: 0;
-        height: 100vh; 
+        height: 88vh; 
         overflow-x: hidden;
         .presentation__one {
             font-size: 1.5rem;
@@ -64,7 +63,7 @@
 @media (min-width: 1000px) {
     .presentation {
         justify-content: space-evenly;
-        padding: 0;
+        padding: 0 !important;
         width: 100%;
         gap: 40px;
         text-align: start;
@@ -78,38 +77,20 @@
     }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1500px) {
     .presentation__one {
-        font-size: 2rem;
+        font-size: 3rem !important;
     }
     .presentation__two {
-        font-size: 3rem;
+        font-size: 3rem !important;
     }
     .presentation__three {
-        font-size: 2rem;
+        font-size: 2rem !important;
     }
     .presentation__four {
-        font-size: 1.7rem;
+        font-size: 1.7rem !important;
     }
     .presentation__image {
         width: 500px;
-    }
-}
-
-@media (min-width: 1920px) {
-    .presentation__one {
-        font-size: 3rem;
-    }
-    .presentation__two {
-        font-size: 5rem;
-    }
-    .presentation__three {
-        font-size: 3rem;
-    }
-    .presentation__four {
-        font-size: 2rem;
-    }
-    .presentation__image-react {
-        width: 400px;
     }
 }

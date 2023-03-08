@@ -18,14 +18,11 @@
         box-shadow: 0 0 10px $font_color-2;
         color: $font_color-2;
     }
-    .btnIcon {
-        font-size: calc(2rem + 3px);
-    }
+    
     .link {
         color: black;
         display: flex;
         font-weight: 500;
-        font-size: calc(2rem - 2px);
         justify-content: space-around;
         gap: 10px;
         text-decoration: none;
@@ -34,18 +31,18 @@
 
 @media (min-width: 0px) {
     .btnIcon {
-        font-size: calc(1.5rem + 1px) !important;
+        font-size: 1.5rem;
     }
     .link {
-        font-size: 1.25rem !important;
+        font-size: 1.3rem;
     }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1500px) {
     .btnIcon {
         font-size: 2rem !important;
     }
     .link {
-        font-size: 1.75rem !important;
+        font-size: 1.5rem !important;
     }
 }

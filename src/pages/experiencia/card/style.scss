@@ -51,6 +51,8 @@
                     .card__txt-second,
                     .card__txt-fourth {
                         font-weight: 500;
+                        color: $font_color;
+                        text-shadow: 3px 3px 3px black;
                     }
                     .card__txt-third {
                         margin: 5px;
@@ -92,6 +94,43 @@
             }
             .card__txt-third {
                 font-size: 1.5rem;
+                margin: 5px;
+                color: $font_color-2;
+                text-shadow: 0 0 4px black;
+            }
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    .card {
+        width: 350px;
+        height: 330px;
+        &:hover {
+            height: 500px;
+            transition: 0.3s;
+        }
+        .overlay {
+            height: 200px;
+        }
+        .card__img-container {
+            width: 200px;
+            height: 200px;
+        }
+        .card__txt-content {
+            .card__txt-first {
+                color: $font_color-2;
+                font-size: 2.5rem;
+                margin: 0;
+                text-shadow: 0 0 4px black;
+            }
+            .card__txt-second,
+            .card__txt-fourth {
+                font-size: 1.3rem;
+                font-weight: 500;
+            }
+            .card__txt-third {
+                font-size: 2rem;
                 margin: 5px;
                 color: $font_color-2;
                 text-shadow: 0 0 4px black;

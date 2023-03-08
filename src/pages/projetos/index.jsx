@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import { useRef, useState } from 'react';
 import Footer from '../../components/footer';
-import Card from './card';
+import Card from './cards';
 import './style.scss';
 
 export default function Projetos() {
@@ -27,24 +27,18 @@ export default function Projetos() {
         site2: './img/geral/GeadorDeCancelamento.jpeg',
         site3: './img/geral/GeadorDeCancelamento.jpeg',
         site4: './img/geral/GeadorDeCancelamento.jpeg',
-        site5: './img/geral/GeadorDeCancelamento.jpeg',
-        site6: './img/geral/GeadorDeCancelamento.jpeg',
     });
     const [tittle, setTittle] = useState({
         site1: 'Gerador de cancelamento',
         site2: 'Future',
         site3: 'Future',
         site4: 'Future',
-        site5: 'Future',
-        site6: 'Future',
     });
     const [desc, setDesc] = useState({
         site1: 'Bote seu nome e seu sexo e descubra de que jeito você será cancelado.',
         site2: 'Future',
         site3: 'Future',
         site4: 'Future',
-        site5: 'Future',
-        site6: 'Future',
     });
 
     
@@ -61,24 +55,18 @@ export default function Projetos() {
                                     site2: './img/geral/GeadorDeCancelamento.jpeg',
                                     site3: './img/geral/GeadorDeCancelamento.jpeg',
                                     site4: './img/geral/GeadorDeCancelamento.jpeg',
-                                    site5: './img/geral/GeadorDeCancelamento.jpeg',
-                                    site6: './img/geral/GeadorDeCancelamento.jpeg',
                                 });
                                 setTittle({
                                     site1: 'Future',
                                     site2: 'Future',
                                     site3: 'Future',
                                     site4: 'Future',
-                                    site5: 'Future',
-                                    site6: 'Future',
                                 });
                                 setDesc({
                                     site1: 'Future',
                                     site2: 'Future',
                                     site3: 'Future',
                                     site4: 'Future',
-                                    site5: 'Future',
-                                    site6: 'Future',
                                 });
                             }}
                             className="links_pag links__first active"
@@ -97,24 +85,18 @@ export default function Projetos() {
                                     site2: './img/experiencia_programacao/Git.png',
                                     site3: './img/experiencia_programacao/Git.png',
                                     site4: './img/experiencia_programacao/Git.png',
-                                    site5: './img/experiencia_programacao/Git.png',
-                                    site6: './img/experiencia_programacao/Git.png',
                                 });
                                 setTittle({
                                     site1: 'Future',
                                     site2: 'Future',
                                     site3: 'Future',
                                     site4: 'Future',
-                                    site5: 'Future',
-                                    site6: 'Future',
                                 });
                                 setDesc({
                                     site1: 'Future',
                                     site2: 'Future',
                                     site3: 'Future',
                                     site4: 'Future',
-                                    site5: 'Future',
-                                    site6: 'Future',
                                 });
                             }}
                         >
@@ -131,24 +113,18 @@ export default function Projetos() {
                                     site2: './img/experiencia_programacao/Reactjs.png',
                                     site3: './img/experiencia_programacao/Reactjs.png',
                                     site4: './img/experiencia_programacao/Reactjs.png',
-                                    site5: './img/experiencia_programacao/Reactjs.png',
-                                    site6: './img/experiencia_programacao/Reactjs.png',
                                 });
                                 setTittle({
                                     site1: 'Future',
                                     site2: 'Future',
                                     site3: 'Future',
                                     site4: 'Future',
-                                    site5: 'Future',
-                                    site6: 'Future',
                                 });
                                 setDesc({
                                     site1: 'Future',
                                     site2: 'Future',
                                     site3: 'Future',
                                     site4: 'Future',
-                                    site5: 'Future',
-                                    site6: 'Future',
                                 });
                             }}
                             className="links_pag links__third"
@@ -169,10 +145,6 @@ export default function Projetos() {
                     <Card img={img.site3} tittle={tittle.site3} txt={<p>{desc.site3}</p>} />
                     {/* Site 4 */}
                     <Card img={img.site4} tittle={tittle.site4} txt={<p>{desc.site4}</p>} />
-                    {/* Site 5 */}
-                    <Card img={img.site5} tittle={tittle.site5} txt={<p>{desc.site5}</p>} />
-                    {/* Site 6 */}
-                    <Card img={img.site6} tittle={tittle.site6} txt={<p>{desc.site6}</p>} />
                 </div>
             </div>
             <Footer />

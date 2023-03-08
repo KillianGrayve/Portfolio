@@ -78,7 +78,7 @@ export default function Experiencia() {
                             img="./img/experiencia_programacao/CSS.png"
                             alt="Imagem CSS"
                             txtFirst="CSS"
-                            txtSecond={<p>Programando em CSS desde 2022</p>}
+                            txtSecond={<p>Programando em CSS <br />desde 2022</p>}
                             txtThird="Cursos"
                             txtFourth={
                                 <p>
@@ -129,7 +129,7 @@ export default function Experiencia() {
                             img="./img/experiencia_programacao/Git.png"
                             alt="Imagem Git"
                             txtFirst="Git"
-                            txtSecond={<p>Estudando Git desde 2023</p>}
+                            txtSecond={<p>Estudando Git desde <br />2023</p>}
                             txtThird="Cursos"
                             txtFourth={
                                 <p>
@@ -146,7 +146,7 @@ export default function Experiencia() {
                             img="./img/experiencia_programacao/GitHub.png"
                             alt="Imagem GitHub"
                             txtFirst="GitHub"
-                            txtSecond={<p> Usando GitHub desde 2022</p>}
+                            txtSecond={<p> Usando GitHub desde <br />2022</p>}
                             txtThird="Cursos"
                             txtFourth={
                                 <p>

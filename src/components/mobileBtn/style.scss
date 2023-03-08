@@ -69,3 +69,10 @@
         }
     }
 }
+
+
+@media (min-width: 800px) {
+    .nav {
+        display: none;
+    }
+}
