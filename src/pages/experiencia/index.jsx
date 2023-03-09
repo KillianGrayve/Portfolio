@@ -333,7 +333,7 @@ export default function Experiencia() {
                                     Alura / YouTube
                                     <br />
                                     <br />
-                                    (Experiência bem Alta)
+                                    (Experiência Alta)
                                 </span>
                             }
                         />
@@ -350,7 +350,7 @@ export default function Experiencia() {
                                     Alura / YouTube
                                     <br />
                                     <br />
-                                    (Experiência bem Alta)
+                                    (Experiência Alta)
                                 </span>
                             }
                         />
@@ -401,7 +401,7 @@ export default function Experiencia() {
                                     YouTube
                                     <br />
                                     <br />
-                                    (Experiência bem baixa)
+                                    (Experiência baixa)
                                 </span>
                             }
                         />
