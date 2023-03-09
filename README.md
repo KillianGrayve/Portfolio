@@ -1,4 +1,7 @@
-# MyProjects
- Repositório onde eu guardo meus projetos 
+# Portfolio
+ Portfolio made with:
  
- Que doideira, Curso em vídeo é ótimo! 
+ - Reactjs
+ - Sass
+ 
+ 
