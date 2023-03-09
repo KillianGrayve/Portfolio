@@ -48,7 +48,7 @@ export default function SobreContainer() {
                 <div data-aos="fade-zoom" data-aos-delay="700" className='btn__container'>
                     <MdContentCopy className="copy" onClick={copiar} />
 
-                    <Button icon={<HiOutlineMail />} txt="Email" href='mailto:Ericlideme.p@hotmail.com'/>
+                    <Button icon={<HiOutlineMail />} txt="Email" link='mailto:Ericlideme.p@hotmail.com'/>
                 </div>
 
                 <dialog>

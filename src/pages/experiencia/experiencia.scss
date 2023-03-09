@@ -87,12 +87,12 @@
 
 @media (min-width: 800px) {
     .swiper {
-        height: 87vh;
+        height: 80vh;
         width: 120vh !important;
         // Slide no geral
         &::before {
             height: 65vh;
-            margin-top: 80px;
+            margin-top: 40px;
             // Os slides individuais
         }
     }

@@ -19,11 +19,18 @@ dialog {
     }
     .btnModal {
         padding: 2px 6px !important;
-        margin-left: 115px;
+        margin: 0 auto;
+        position: relative;
         margin-bottom: 10px;
         .link {
             padding: 0 !important;
         }
+    }
+}
+
+@media (min-width: 800px) {
+    .btnModal {
+        margin-left: 120px !important;
     }
 }
 
