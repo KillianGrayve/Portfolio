@@ -1,6 +1,6 @@
 import {} from 'react-icons/ri';
 import NavList from '../props/navList/index';
-import './style.scss';
+import './mobileBtn.scss';
 
 export default function MobileBtn() {
     const listNav = [

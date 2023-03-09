@@ -1,7 +1,7 @@
 import { PropTypes } from 'prop-types';
-import './style.scss';
+import './cards.scss';
 
-export default function Card({ img, tittle, txt }) {
+export default function Card({ img, tittle, txt, link }) {
     return (
         <div className="card__project">
             <div className="card__project-content">
@@ -14,7 +14,9 @@ export default function Card({ img, tittle, txt }) {
                     <p className="card__project__txt-first">{txt}</p>
 
                     <button type="button" className="btn btnCard">
-                        Ver site
+                        <a className="btn__link" target="_blank" href={link} rel="noreferrer">
+                            Ver site
+                        </a>
                     </button>
                 </div>
             </div>
@@ -26,10 +28,12 @@ Card.defaultProps = {
     img: 'Esqueceu da imagem',
     tittle: 'Esqueceu do titulo',
     txt: 'Esqueceu do Texto',
+    link: null,
 };
 
 Card.propTypes = {
     img: PropTypes.string,
     tittle: PropTypes.string,
     txt: PropTypes.string,
+    link: PropTypes.string,
 };

@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import { useRef, useState } from 'react';
 import Card from './cards';
-import './style.scss';
+import './projetos.scss';
 
 export default function Projetos() {
     const pag1 = useRef();
@@ -19,24 +19,23 @@ export default function Projetos() {
         removeActive();
         pag.current.classList.add('active');
     };
-
     const [img, setImg] = useState({
         site1: './img/geral/GeadorDeCancelamento.jpeg',
-        site2: './img/geral/GeadorDeCancelamento.jpeg',
-        site3: './img/geral/GeadorDeCancelamento.jpeg',
-        site4: './img/geral/GeadorDeCancelamento.jpeg',
+        site2: './img/geral/EmBrevePort.jpg',
+        site3: './img/geral/EmBrevePort.jpg',
+        site4: './img/geral/EmBrevePort.jpg',
     });
     const [tittle, setTittle] = useState({
         site1: 'Gerador de cancelamento',
-        site2: 'Future',
-        site3: 'Future',
-        site4: 'Future',
+        site2: 'Em breve!',
+        site3: 'Em breve!',
+        site4: 'Em breve!',
     });
     const [desc, setDesc] = useState({
-        site1: 'Bote seu nome e seu sexo e descubra de que jeito você será cancelado.',
-        site2: 'Future',
-        site3: 'Future',
-        site4: 'Future',
+        site1: 'Bote seu nome e seu sexo e descubra de que jeito você será cancelado!',
+        site2: 'Não fique triste, logo mais terei mais trabalhos para por aqui!!',
+        site3: 'Não fique triste, logo mais terei mais trabalhos para por aqui!!',
+        site4: 'Não fique triste, logo mais terei mais trabalhos para por aqui!!',
     });
 
     return (
@@ -50,27 +49,27 @@ export default function Projetos() {
                                 active(pag1);
                                 setImg({
                                     site1: './img/geral/GeadorDeCancelamento.jpeg',
-                                    site2: './img/geral/GeadorDeCancelamento.jpeg',
-                                    site3: './img/geral/GeadorDeCancelamento.jpeg',
-                                    site4: './img/geral/GeadorDeCancelamento.jpeg',
+                                    site2: './img/geral/EmBrevePort.jpg',
+                                    site3: './img/geral/EmBrevePort.jpg',
+                                    site4: './img/geral/EmBrevePort.jpg',
                                 });
                                 setTittle({
-                                    site1: 'Future',
-                                    site2: 'Future',
-                                    site3: 'Future',
-                                    site4: 'Future',
+                                    site1: 'Gerador de cancelamneto',
+                                    site2: 'Em breve!',
+                                    site3: 'Em breve!',
+                                    site4: 'Em breve!',
                                 });
                                 setDesc({
-                                    site1: 'Future',
-                                    site2: 'Future',
-                                    site3: 'Future',
-                                    site4: 'Future',
+                                    site1: 'Bote seu nome e seu sexo e descubra de que jeito você será cancelado!',
+                                    site2: 'Não fique triste, logo mais terei mais trabalhos para por aqui!',
+                                    site3: 'Não fique triste, logo mais terei mais trabalhos para por aqui!',
+                                    site4: 'Não fique triste, logo mais terei mais trabalhos para por aqui!',
                                 });
                             }}
                             className="links_pag links__first active"
                         >
                             {' '}
-                            Pagina 1{' '}
+                            Página I{' '}
                         </p>
                     </li>
                     <li>
@@ -80,27 +79,27 @@ export default function Projetos() {
                             onClick={() => {
                                 active(pag2);
                                 setImg({
-                                    site1: './img/experiencia_programacao/Git.png',
-                                    site2: './img/experiencia_programacao/Git.png',
-                                    site3: './img/experiencia_programacao/Git.png',
-                                    site4: './img/experiencia_programacao/Git.png',
+                                    site1: './img/geral/EmBrevePort.jpg',
+                                    site2: './img/geral/EmBrevePort.jpg',
+                                    site3: './img/geral/EmBrevePort.jpg',
+                                    site4: './img/geral/EmBrevePort.jpg',
                                 });
                                 setTittle({
-                                    site1: 'Future',
-                                    site2: 'Future',
-                                    site3: 'Future',
-                                    site4: 'Future',
+                                    site1: 'Em breve!!',
+                                    site2: 'Em breve!!',
+                                    site3: 'Em breve!!',
+                                    site4: 'Em breve!!',
                                 });
                                 setDesc({
-                                    site1: 'Future',
-                                    site2: 'Future',
-                                    site3: 'Future',
-                                    site4: 'Future',
+                                    site1: 'Não fique triste, logo mais terei mais trabalhos para por aqui!',
+                                    site2: 'Não fique triste, logo mais terei mais trabalhos para por aqui!',
+                                    site3: 'Não fique triste, logo mais terei mais trabalhos para por aqui!',
+                                    site4: 'Não fique triste, logo mais terei mais trabalhos para por aqui!',
                                 });
                             }}
                         >
                             {' '}
-                            Pagina 2{' '}
+                            Página II{' '}
                         </p>
                     </li>
                     <li>
@@ -109,28 +108,28 @@ export default function Projetos() {
                             onClick={() => {
                                 active(pag3);
                                 setImg({
-                                    site1: './img/experiencia_programacao/Reactjs.png',
-                                    site2: './img/experiencia_programacao/Reactjs.png',
-                                    site3: './img/experiencia_programacao/Reactjs.png',
-                                    site4: './img/experiencia_programacao/Reactjs.png',
+                                    site1: './img/geral/EmBrevePort.jpg',
+                                    site2: './img/geral/EmBrevePort.jpg',
+                                    site3: './img/geral/EmBrevePort.jpg',
+                                    site4: './img/geral/EmBrevePort.jpg',
                                 });
                                 setTittle({
-                                    site1: 'Future',
-                                    site2: 'Future',
-                                    site3: 'Future',
-                                    site4: 'Future',
+                                    site1: 'Em breve!!!',
+                                    site2: 'Em breve!!!',
+                                    site3: 'Em breve!!!',
+                                    site4: 'Em breve!!!',
                                 });
                                 setDesc({
-                                    site1: 'Future',
-                                    site2: 'Future',
-                                    site3: 'Future',
-                                    site4: 'Future',
+                                    site1: 'Não fique triste, logo mais terei mais trabalhos para por aqui!',
+                                    site2: 'Não fique triste, logo mais terei mais trabalhos para por aqui!',
+                                    site3: 'Não fique triste, logo mais terei mais trabalhos para por aqui!',
+                                    site4: 'Não fique triste, logo mais terei mais trabalhos para por aqui!',
                                 });
                             }}
                             className="links_pag links__third"
                         >
                             {' '}
-                            Pagina 3{' '}
+                            Página III{' '}
                         </p>
                     </li>
                 </ul>
@@ -138,7 +137,7 @@ export default function Projetos() {
             <div className="cards__container">
                 <div data-aos="zoomIn" className="cards__content">
                     {/* Site 1 */}
-                    <Card img={img.site1} tittle={tittle.site1} txt={<p>{desc.site1}</p>} />
+                    <Card img={img.site1} tittle={tittle.site1} txt={<p>{desc.site1}</p>} link='https://gerador-de-cancelamentos.web.app/' />
                     {/* Site 2 */}
                     <Card img={img.site2} tittle={tittle.site2} txt={<p>{desc.site2}</p>} />
                     {/* Site 3 */}

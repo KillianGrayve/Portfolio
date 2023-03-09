@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
-import './style.scss';
+import './button.scss';
 
-export default function Button({ txt, icon, href, class2, fun }) {
+export default function Button({ txt, icon, link, class2, fun }) {
     return (
         <button type="button" className={`btn ${class2}`}>
-            <a className="link" href={href} onClick={fun} target="_blank" rel="noreferrer" download>
+            <a className="link" href={link} onClick={fun} target="_blank" rel="noreferrer" download>
                 {icon} {txt}
             </a>
         </button>
@@ -14,7 +14,7 @@ export default function Button({ txt, icon, href, class2, fun }) {
 Button.defaultProps = {
     txt: 'Insira um texto',
     icon: null,
-    href: null,
+    link: null,
     class2: '',
     fun: null,
 };
@@ -22,7 +22,7 @@ Button.defaultProps = {
 Button.propTypes = {
     txt: PropTypes.string,
     icon: PropTypes.string,
-    href: PropTypes.string,
+    link: PropTypes.string,
     class2: PropTypes.string,
     fun: PropTypes.string,
 };

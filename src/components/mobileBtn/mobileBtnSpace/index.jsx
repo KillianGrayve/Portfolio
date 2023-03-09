@@ -1,4 +1,4 @@
-import './style.scss';
+import './mobileBtnSpace.scss';
 
 export default function MobileBtnSpace() {
     return (

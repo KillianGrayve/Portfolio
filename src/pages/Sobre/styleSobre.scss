@@ -9,7 +9,7 @@ cite {
     display: flex;
     text-shadow: 4px 4px 2px black;
     overflow-x: hidden;
-    .box {
+    .box__img {
         background: transparent;
         border-radius: 20px;
         position: relative;
@@ -98,14 +98,13 @@ cite {
         flex-direction: column;
         margin: 0 auto;
         justify-content: center;
-        .box {
+        .box__img {
             height: 300px;
-            margin: 0 auto;
-            margin: 0 !important;
             min-height: 200px;
             min-width: 200px;
             padding: 0 !important;
             width: 200px;
+            margin-top: 20px !important;
         }
         .sobre__txt {
             text-align: center;
@@ -133,19 +132,26 @@ cite {
     }
 }
 
+@media (max-width: 290px) {
+    .box__img {
+        display: none;
+    }
+}
+
 @media (min-width: 800px) {
     .sobre {
         align-items: center;
         flex-direction: row;
-        height: 85vh;
+        height: calc(100vh - 80px);
         gap: 30px;
         justify-content: center;
-        .box {
+        .box__img {
             height: 350px;
             margin-top: 40px;
             min-width: 200px;
             min-height: 200px;
             width: 250px;
+            display: flex;
         }
         .sobre__txt {
             text-align: start;

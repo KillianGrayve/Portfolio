@@ -23,7 +23,7 @@ export default function SobreContainer() {
 
     return (
         <section className="sobre">
-            <div data-aos="fade-right" className="box">
+            <div data-aos="fade-right" className="box__img">
                 <div className="content">
                     <h2 className="content__txt-first">Eric Lideme</h2>
                     <h2 className="content__txt-second"> 19 anos</h2>
@@ -38,11 +38,10 @@ export default function SobreContainer() {
                     </h1>
                     <h2 className="sobre__txt-second">São paulo, Capital</h2>
                     <p className="sobre__txt-third">
-                        Bastante interessado em aprender coisas novas
-                        <br /> e assim desenvolver minhas habilidades. Confiante
-                        <br /> na minha capacidade de aprendizado e precisão no
-                        <br /> que me foi ensinado. Bem organizado e sempre
-                        <br /> prezando por um ambiente limpo agradável para se trabalhar.
+                        Sou apaixonado pela programação e com tudo<br />que ela pode nos propor, estou sempre estudando mais<br /> e me aperfeiçoando para assim, ser melhor do que fui ontem.
+                        <br /><br />
+                        Meu primeiro contato com a programação foi em 2020 <br />com a linguagem C, mas só fui dar foco mesmo em <br />2022 com HTML, CSS e JS e
+                        desde então não quero mais parar!
                     </p>
                 </div>
 

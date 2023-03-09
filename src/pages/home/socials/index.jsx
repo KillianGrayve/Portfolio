@@ -25,7 +25,7 @@ export default function Social() {
 
             <div className="btn__container">
                 <Button
-                    href="./assets/Currículo - Eric lideme.pdf"
+                    link="./assets/Curriculo_EricLideme.pdf"
                     icon={<AiOutlineCloudDownload className="btnIcon" />}
                     txt="Currículo"
                 />

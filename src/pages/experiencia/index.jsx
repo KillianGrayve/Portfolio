@@ -12,7 +12,7 @@ import 'swiper/scss/pagination';
 import 'swiper/scss/scrollbar';
 import Footer from '../../components/footer';
 import Card from './card';
-import './style.scss';
+import './experiencia.scss';
 
 export default function Experiencia() {
     return (
@@ -31,6 +31,7 @@ export default function Experiencia() {
                     grabCursor
                     centeredSlides
                     loop
+                    pagination
                     coverflowEffect={{
                         rotate: 0,
                         strech: 0,
@@ -193,6 +194,7 @@ export default function Experiencia() {
                     grabCursor
                     centeredSlides
                     loop
+                    pagination
                     coverflowEffect={{
                         rotate: 0,
                         strech: 0,
@@ -293,7 +295,7 @@ export default function Experiencia() {
                 </Swiper>
 
                 {/* Titulo  */}
-                <h2 data-aos="fade-up" className="titulo__second">
+                <h2 data-aos="fade-up" className="titulo__third">
                     <code>Experiência Geral</code>
                 </h2>
 
@@ -309,6 +311,7 @@ export default function Experiencia() {
                     grabCursor
                     centeredSlides
                     loop
+                    pagination
                     coverflowEffect={{
                         rotate: 0,
                         strech: 0,

@@ -1,7 +1,8 @@
 @import '../../components/variables/variables';
 
 .titulo__first,
-.titulo__second {
+.titulo__second,
+.titulo__third {
     text-align: center;
     text-shadow: 2px 2px 5px black;
     font-size: calc(4rem - 2px);
@@ -27,6 +28,12 @@
         // Os slides individuais
     }
 
+    .swiper-pagination {
+        .swiper-pagination-bullet-active {
+            background-color: $font_color-2;
+        }
+    }
+
     .wisper-3d {
         perspective: 500px;
     }
@@ -47,7 +54,7 @@
         margin: 0 auto !important;
         width: 100% !important;
         &:last-child {
-            margin-bottom: 50px;
+            margin-bottom: 40px !important;
         }
         // Slide no geral
         &::before {
@@ -67,7 +74,8 @@
     }
 
     .titulo__first,
-    .titulo__second {
+    .titulo__second,
+    .titulo__third {
         font-size: 2rem;
     }
 

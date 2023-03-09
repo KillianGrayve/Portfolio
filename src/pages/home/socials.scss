@@ -39,7 +39,7 @@
 @media (min-width: 0px) {
     .presentation {
         display: flex;
-        height: 88vh;
+        height: calc(100vh - 80px);
         width: 100%; 
         gap: 0;
         justify-content: center;

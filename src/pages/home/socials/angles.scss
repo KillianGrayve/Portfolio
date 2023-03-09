@@ -39,9 +39,14 @@
     }
 }
 
+@media (max-width: 450px) {
+    .angles__list{
+        margin-top: 15px;        
+    }
+}
+
 @media (min-width: 0) {
     .angles__list {
-        display: none;
         font-size: 20px;
     }
 
@@ -51,17 +56,7 @@
     }
 }
 
-@media (min-width: 650px) {
-    .angles__list {
-        display: flex !important;
-    }
-}
-
 @media (min-width: 1000px) {
-    .angles__list {
-        display: flex !important;
-    }
-
     .social {
         justify-content: start !important;
         font-size: 25px;

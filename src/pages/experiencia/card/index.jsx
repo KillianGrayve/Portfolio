@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import Tilt from 'react-parallax-tilt';
-import './style.scss';
+import './card.scss';
 
 export default function Slide({ img, alt, txtFirst, txtSecond, txtThird, txtFourth }) {
 

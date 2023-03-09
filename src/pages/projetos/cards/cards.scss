@@ -25,11 +25,6 @@
             transition: 0.3s;
             top: 0;
         }
-        &:hover .card__project__txt-first,
-        &:hover .btnCard {
-            bottom: -20px;
-            transition: 0.3s;
-        }
         .card__project__tittle {
             font-weight: 600;
             margin: 0 0 10px 0;
@@ -50,7 +45,17 @@
         margin-top: 10px;
         bottom: -200px;
         padding: 5px 10px;
+        &:hover .btn__link {
+            color: $font_color-2;
+        }
     }
+}
+
+.btn__link {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    
 }
 
 // @Mobile!
@@ -59,13 +64,31 @@
     .card__project {
         height: 180px;
         width: 50vh;
+        .card__project__content-txt {
+        &:hover .card__project__txt-first,
+        &:hover .btnCard {
+            bottom: -30px;
+        }
     }
+}
     .card__project__tittle {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .card__project__txt-first {
         font-size: 1rem;
     }
 
+}
+
+@media (min-width: 800px) {
+    .card__project {
+        height: 200px;
+        .card__project__content-txt {
+            &:hover .card__project__txt-first,
+            &:hover .btnCard {
+                bottom: -50px;
+            }
+        }
+    }
 }
