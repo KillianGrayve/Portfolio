@@ -69,11 +69,10 @@
 
 @media (min-width: 800px) {
     .projetos {
-        height: 0vh;
         align-items: center;
         display: flex;
+        height: 100vh;
         flex-direction: column;
-        height: 89.5vh !important;
     }
     .projetos__list {
         width: 100vh;

@@ -32,7 +32,7 @@ export default function Projetos() {
         site4: 'Em breve!',
     });
     const [desc, setDesc] = useState({
-        site1: 'Bote seu nome e seu sexo e descubra de que jeito você será cancelado!',
+        site1: 'Bote seu nome e seu sexo e descubra!',
         site2: 'Não fique triste, logo mais terei mais trabalhos para por aqui!!',
         site3: 'Não fique triste, logo mais terei mais trabalhos para por aqui!!',
         site4: 'Não fique triste, logo mais terei mais trabalhos para por aqui!!',

@@ -55,30 +55,50 @@
     color: black;
     font-size: 16px;
     text-decoration: none;
-    
 }
 
 // @Mobile!
 
+
+
 @media (min-width: 0) {
+    .card__project {
+        height: 200px;
+        width: 35vh;
+        .card__project__content-txt {
+            &:hover .card__project__txt-first,
+            &:hover .btnCard {
+                bottom: -30px;
+            }
+        }
+    }
+    .card__project__tittle {
+        font-size: 1rem;
+    }
+
+    .card__project__txt-first {
+        font-size: .90rem;
+    }
+}
+
+@media (min-width: 400px) {
     .card__project {
         height: 180px;
         width: 50vh;
         .card__project__content-txt {
-        &:hover .card__project__txt-first,
-        &:hover .btnCard {
-            bottom: -30px;
+            &:hover .card__project__txt-first,
+            &:hover .btnCard {
+                bottom: -30px;
+            }
         }
     }
-}
     .card__project__tittle {
-        font-size: 1.4rem;
+        font-size: 1.25rem;
     }
 
     .card__project__txt-first {
         font-size: 1rem;
     }
-
 }
 
 @media (min-width: 800px) {
