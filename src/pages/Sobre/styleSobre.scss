@@ -55,16 +55,6 @@ cite {
                     opacity: 0;
                 }
             }
-            .content__txt-first {
-                // top / left / fonts-size / font-weight
-                @include content__txt(75px, 20px, 2rem, 700);
-            }
-            .content__txt-second {
-                @include content__txt(120px, 20px, 1.25rem, 500);
-            }
-            .content__txt-third {
-                @include content__txt(130px, 110px, calc(1rem - 1px), 700);
-            }
         }
     }
 
@@ -106,6 +96,18 @@ cite {
             width: 200px;
             margin-top: 20px !important;
         }
+
+        .content__txt-first {
+            // top / left / fonts-size / font-weight
+            @include content__txt(30%, 20px, 1.6rem, 700);
+        }
+        .content__txt-second {
+            @include content__txt(46%, 20px, 1rem, 500);
+        }
+        .content__txt-third {
+            @include content__txt(49.2%, 90px, 0.75rem, 700);
+        }
+
         .sobre__txt {
             text-align: center;
             .sobre__txt-first {
@@ -152,6 +154,17 @@ cite {
             min-height: 200px;
             width: 250px;
             display: flex;
+        }
+
+        .content__txt-first {
+            // top / left / fonts-size / font-weight
+            @include content__txt(105px, 25px, 2rem, 700);
+        }
+        .content__txt-second {
+            @include content__txt(150px, 25px, 1.25rem, 500);
+        }
+        .content__txt-third {
+            @include content__txt(160px, 115px, calc(1rem - 1px), 700);
         }
         .sobre__txt {
             text-align: start;
