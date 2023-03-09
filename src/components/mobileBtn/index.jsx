@@ -26,8 +26,8 @@ export default function MobileBtn() {
                 <nav className="navbar__mobile">
                     <div className="navbar__mobile-box">
                         <ul className="navbar__mobile-links">
-                            {listNav.map((e) => (
-                                <NavList onde={e.onde} classe={e.classe} txt={e.txt} />
+                            {listNav.map((item) => (
+                                <NavList key={item} onde={item.onde} classe={item.classe} txt={item.txt} />
                             ))}
                         </ul>
                     </div>

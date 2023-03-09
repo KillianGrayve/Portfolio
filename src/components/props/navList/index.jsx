@@ -26,6 +26,6 @@ NavList.defaultProps = {
 NavList.propTypes = {
     onde: PropTypes.string,
     classe: PropTypes.string,
-    txt: PropTypes.string,
+    txt: PropTypes.node,
     title: PropTypes.string,
 };

@@ -18,8 +18,8 @@ export default function Social() {
     return (
         <div>
             <ul className="social ">
-                {list.map((item) => (
-                    <IconList href={item.link} classe={item.classe} icon={item.icon} />
+                {list.map((e) => (
+                    <IconList key={e} href={e.link} classe={e.classe} icon={e.icon} />
                 ))}
             </ul>
 

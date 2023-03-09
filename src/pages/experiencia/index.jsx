@@ -46,14 +46,14 @@ export default function Experiencia() {
                             img="./img/experiencia_programacao/JS.png"
                             alt="Imagem JavaScript"
                             txtFirst="JavaScript"
-                            txtSecond={<p>Programando em JavaScript desde 2022</p>}
+                            txtSecond={<span>Programando em JavaScript desde 2022</span>}
                             txtThird="Cursos"
                             txtFourth={
-                                <p>
+                                <span>
                                     Alura / YouTube <br />
                                     <br />
                                     (Experiência Média)
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -62,15 +62,15 @@ export default function Experiencia() {
                             img="./img/experiencia_programacao/HTML.png"
                             alt="Imagem HTML"
                             txtFirst="HTML"
-                            txtSecond={<p>Programando em HTML desde 2022</p>}
+                            txtSecond={<span>Programando em HTML desde 2022</span>}
                             txtThird="Cursos"
                             txtFourth={
-                                <p>
+                                <span>
                                     Alura / YouTube
                                     <br />
                                     <br />
                                     (Experiência Alta)
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -79,15 +79,15 @@ export default function Experiencia() {
                             img="./img/experiencia_programacao/CSS.png"
                             alt="Imagem CSS"
                             txtFirst="CSS"
-                            txtSecond={<p>Programando em CSS <br />desde 2022</p>}
+                            txtSecond={<span>Programando em CSS <br />desde 2022</span>}
                             txtThird="Cursos"
                             txtFourth={
-                                <p>
+                                <span>
                                     Alura / YouTube
                                     <br />
                                     <br />
                                     (Experiência Alta)
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -96,15 +96,15 @@ export default function Experiencia() {
                             img="./img/experiencia_programacao/Sass.png"
                             alt="Imagem Sass"
                             txtFirst="Sass"
-                            txtSecond={<p>Programando em Sass desde 2022</p>}
+                            txtSecond={<span>Programando em Sass desde 2022</span>}
                             txtThird="Cursos"
                             txtFourth={
-                                <p>
+                                <span>
                                     Alura / YouTube
                                     <br />
                                     <br />
                                     (Experiência Média)
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -113,15 +113,15 @@ export default function Experiencia() {
                             img="./img/experiencia_programacao/Reactjs.png"
                             alt="Imagem React"
                             txtFirst="React"
-                            txtSecond={<p>Programando em React desde 2022</p>}
+                            txtSecond={<span>Programando em React desde 2022</span>}
                             txtThird="Cursos"
                             txtFourth={
-                                <p>
+                                <span>
                                     Alura / YouTube
                                     <br />
                                     <br />
                                     (Experiência Média)
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -130,15 +130,15 @@ export default function Experiencia() {
                             img="./img/experiencia_programacao/Git.png"
                             alt="Imagem Git"
                             txtFirst="Git"
-                            txtSecond={<p>Estudando Git desde <br />2023</p>}
+                            txtSecond={<span>Estudando Git desde <br />2023</span>}
                             txtThird="Cursos"
                             txtFourth={
-                                <p>
+                                <span>
                                     Alura / YouTube
                                     <br />
                                     <br />
                                     (Experiência Média)
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -147,14 +147,14 @@ export default function Experiencia() {
                             img="./img/experiencia_programacao/GitHub.png"
                             alt="Imagem GitHub"
                             txtFirst="GitHub"
-                            txtSecond={<p> Usando GitHub desde <br />2022</p>}
+                            txtSecond={<span> Usando GitHub desde <br />2022</span>}
                             txtThird="Cursos"
                             txtFourth={
-                                <p>
+                                <span>
                                     Alura / YouTube <br />
                                     <br />
                                     (Experiência Média)
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -163,15 +163,15 @@ export default function Experiencia() {
                             img="./img/experiencia_programacao/VsCode.png"
                             alt="Imagem Visual Studio Code"
                             txtFirst="VsCode"
-                            txtSecond={<p>Programando no VsCode desde 2022</p>}
+                            txtSecond={<span>Programando no VsCode desde 2022</span>}
                             txtThird="Cursos"
                             txtFourth={
-                                <p>
+                                <span>
                                     Alura / YouTube
                                     <br />
                                     <br />
                                     (Experiência Alta)
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -210,17 +210,17 @@ export default function Experiencia() {
                             alt="Imagem Buffet PizzAmor"
                             txtFirst="PizzaAmor"
                             txtSecond={
-                                <p>
+                                <span>
                                     Atuei como garçom por 5 anos
                                     <br /> 2014 - 2019
-                                </p>
+                                </span>
                             }
                             txtThird="Afazeres"
                             txtFourth={
-                                <p>
+                                <span>
                                     Servir os clientes com bebidas, pizzas e
                                     doces. Limpeza pós festa e na ajuda de guardar os itens utilizados no evento.
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -229,14 +229,14 @@ export default function Experiencia() {
                             img="./img/experiencia_profissional/Habibs.png"
                             alt="Imagem Habib's"
                             txtFirst="Habib's"
-                            txtSecond={<p>Atuei no Habibs como garçom por 4 meses</p>}
+                            txtSecond={<span>Atuei no Habibs como garçom por 4 meses</span>}
                             txtThird="Afazeres"
                             txtFourth={
-                                <p>
+                                <span>
                                     Servir os clientes com tudo (Bebidas, etc).
                                     Limpeza no salão. Abrir e fechar pedidos e as vezes atuando como
                                     o caixa.{' '}
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -245,13 +245,13 @@ export default function Experiencia() {
                             img="./img/experiencia_profissional/ReactHeart.png"
                             alt="Imagem React com coração"
                             txtFirst="React Project"
-                            txtSecond={<p>Profissionalmente eu não fiz nada em React mas...</p>}
+                            txtSecond={<span>Profissionalmente eu não fiz nada em React mas...</span>}
                             txtThird="Nota"
                             txtFourth={
-                                <p>
+                                <span>
                                     Eu adoraria começar a programar nessa Framework que tanto amo!
                                     Sempre procuro estudar e saber mais.
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -261,14 +261,14 @@ export default function Experiencia() {
                             alt="Imagem Freelancer"
                             txtFirst="Freelancer"
                             txtSecond={
-                                <p>Atuei como freelancer desde 2022.</p>
+                                <span>Atuei como freelancer desde 2022.</span>
                             }
                             txtThird="Afazeres"
                             txtFourth={
-                                <p>
+                                <span>
                                     Fazendo Chatbox, Goal, Eventlist para stream usando HTML, CSS e
                                     JS. Editando vídeo e imagens (Thumbs+).
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -278,17 +278,17 @@ export default function Experiencia() {
                             alt="Imagem Relógio feito de seta"
                             txtFirst="Futuro"
                             txtSecond={
-                                <p>
+                                <span>
                                     Futuramente terei mais experiência profissional aqui!
-                                </p>
+                                </span>
                             }
                             txtThird="Aviso!"
                             txtFourth={
-                                <p>
+                                <span>
                                     Quem sabe a sua empresa seja o meu próximo card 👀 <br />
                                     <br />
                                     (Assim espero)
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -326,15 +326,15 @@ export default function Experiencia() {
                             img=".\img\experiencia_geral\AdobrePremiere.png"
                             alt="Imagem Adobre Premiere"
                             txtFirst="Premiere"
-                            txtSecond={<p>Editando vídeo com o premiere desde 2022</p>}
+                            txtSecond={<span>Editando vídeo com o premiere desde 2022</span>}
                             txtThird="Curso"
                             txtFourth={
-                                <p>
+                                <span>
                                     Alura / YouTube
                                     <br />
                                     <br />
                                     (Experiência bem Alta)
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -343,15 +343,15 @@ export default function Experiencia() {
                             img="./img/experiencia_geral/AfterEffects.png"
                             alt="Imagem After Effects"
                             txtFirst="After Effects"
-                            txtSecond={<p>Editando vídeos com After Effects desde 2022</p>}
+                            txtSecond={<span>Editando vídeos com After Effects desde 2022</span>}
                             txtThird="Curso"
                             txtFourth={
-                                <p>
+                                <span>
                                     Alura / YouTube
                                     <br />
                                     <br />
                                     (Experiência bem Alta)
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -360,15 +360,15 @@ export default function Experiencia() {
                             img=".\img\experiencia_geral\Photoshop.png"
                             alt="Imagem Photoshop"
                             txtFirst="Photoshop"
-                            txtSecond={<p>Editando imagens usando Photoshop desde 2022</p>}
+                            txtSecond={<span>Editando imagens usando Photoshop desde 2022</span>}
                             txtThird="Curso"
                             txtFourth={
-                                <p>
+                                <span>
                                     Alura / YouTube
                                     <br />
                                     <br />
                                     (Experiência Média)
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -377,15 +377,15 @@ export default function Experiencia() {
                             img="./img/experiencia_geral/Word.png"
                             alt="Imagem Word_Microsoft"
                             txtFirst="Word"
-                            txtSecond={<p>Fazendo trabalhos no word desde 2018</p>}
+                            txtSecond={<span>Fazendo trabalhos no word desde 2018</span>}
                             txtThird="Curso"
                             txtFourth={
-                                <p>
+                                <span>
                                     YouTube
                                     <br />
                                     <br />
                                     (Experiência Média)
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>
@@ -394,15 +394,15 @@ export default function Experiencia() {
                             img="./img/experiencia_geral/Excel.png"
                             alt="Imagem Excel Microsoft"
                             txtFirst="Excel"
-                            txtSecond={<p>Estudando excel desde o inicio de 2023.</p>}
+                            txtSecond={<span>Estudando excel desde o inicio de 2023.</span>}
                             txtThird="Curso"
                             txtFourth={
-                                <p>
+                                <span>
                                     YouTube
                                     <br />
                                     <br />
                                     (Experiência bem baixa)
-                                </p>
+                                </span>
                             }
                         />
                     </SwiperSlide>

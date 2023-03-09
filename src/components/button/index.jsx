@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import PropTypes, { node } from 'prop-types';
 import './button.scss';
 
 export default function Button({ txt, icon, link, class2, fun }) {
@@ -21,8 +21,8 @@ Button.defaultProps = {
 
 Button.propTypes = {
     txt: PropTypes.string,
-    icon: PropTypes.string,
+    icon: PropTypes.string && node,
     link: PropTypes.string,
     class2: PropTypes.string,
-    fun: PropTypes.string,
+    fun: PropTypes.func,
 };

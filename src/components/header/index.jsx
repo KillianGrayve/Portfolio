@@ -4,23 +4,23 @@ import './header.scss';
 
 export default function NavBar() {
     const listNav = [
-        { onde: '/home', classe: 'links', txt: 'Home' },
-        { onde: '/sobre', classe: 'links', txt: 'Sobre' },
-        { onde: '/projetos', classe: 'links', txt: 'Projetos' },
-        { onde: '/experiencia', classe: 'links', txt: 'Experiência' },
+        { onde: '/home', txt: 'Home' },
+        { onde: '/sobre', txt: 'Sobre' },
+        { onde: '/projetos', txt: 'Projetos' },
+        { onde: '/experiencia', txt: 'Experiência' },
     ];
 
     return (
         <div className="box">
             <nav className="navbar">
                 <div className="navbar__el el">
-                    <p>Portfólio</p>
+                    Portfólio
                 </div>
 
                 
                 <ul className="navbar__menu">
                     {listNav.map((e) => (
-                        <NavList onde={e.onde} classe={e.classe} txt={e.txt} />
+                        <NavList key={e} onde={e.onde} classe='links' txt={e.txt} />
                     ))}
                 </ul>
             </nav>

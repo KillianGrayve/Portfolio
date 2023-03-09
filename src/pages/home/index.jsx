@@ -9,15 +9,15 @@ import './socials.scss';
 
 export default function Home() {
     const list = [
-        { onde: '/home', classe: 'angles', title: 'Modo Horizontal', txt: <RxViewHorizontal /> },
-        { onde: '/homev', classe: 'angles', title: 'Modo Vertical', txt: <RxViewVertical /> },
+        { onde: '/home', title: 'Modo Horizontal', txt: <RxViewHorizontal /> },
+        { onde: '/homev', title: 'Modo Vertical', txt: <RxViewVertical /> },
     ];
 
     return (
         <section>
             <ul className="angles__list">
                 {list.map((e) => (
-                    <NavList onde={e.onde} classe={e.classe} txt={e.txt} title={e.title} />
+                    <NavList key={e} onde={e.onde} classe='angles' txt={e.txt} title={e.title} />
                 ))}
             </ul>
             <div className="presentation">

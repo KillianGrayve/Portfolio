@@ -5,12 +5,10 @@ import './style/index.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-function tick() {
     root.render(
         <React.StrictMode>
             <App />
         </React.StrictMode>
     );
-}
 
-setInterval(tick, 400);
+// setInterval(tick, 400);

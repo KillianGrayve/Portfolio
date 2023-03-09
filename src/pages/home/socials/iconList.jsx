@@ -19,6 +19,6 @@ IconList.defaultProps = {
 
 IconList.propTypes = {
     classe: PropTypes.string,
-    icon: PropTypes.string,
+    icon: PropTypes.node,
     href: PropTypes.string,
 };

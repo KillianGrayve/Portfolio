@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import PropTypes, { node } from 'prop-types';
 import Tilt from 'react-parallax-tilt';
 import './card.scss';
 
@@ -17,9 +17,9 @@ export default function Slide({ img, alt, txtFirst, txtSecond, txtThird, txtFour
                             </div>
                             <div className="card__txt-content">
                                 <h2 className="card__txt-first">{txtFirst}</h2>
-                                <p className="card__txt-second">{txtSecond}</p>
+                                <span className="card__txt-second">{txtSecond}</span>
                                 <h2 className="card__txt-third">{txtThird}</h2>
-                                <p className="card__txt-fourth">{txtFourth}</p>
+                                <span className="card__txt-fourth">{txtFourth}</span>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ Slide.propTypes = {
     img: PropTypes.string,
     alt: PropTypes.string,
     txtFirst: PropTypes.string,
-    txtSecond: PropTypes.string,
-    txtThird: PropTypes.string,
-    txtFourth: PropTypes.string,
+    txtSecond: PropTypes.string && node,
+    txtThird: PropTypes.string && node,
+    txtFourth: PropTypes.string && node,
 };

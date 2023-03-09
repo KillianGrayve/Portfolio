@@ -1,4 +1,4 @@
-import { PropTypes } from 'prop-types';
+import { PropTypes, node } from 'prop-types';
 import './cards.scss';
 
 export default function Card({ img, tittle, txt, link }) {
@@ -34,6 +34,6 @@ Card.defaultProps = {
 Card.propTypes = {
     img: PropTypes.string,
     tittle: PropTypes.string,
-    txt: PropTypes.string,
+    txt: PropTypes.string && node,
     link: PropTypes.string,
 };
