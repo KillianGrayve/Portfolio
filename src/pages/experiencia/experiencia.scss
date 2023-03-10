@@ -28,10 +28,8 @@
         // Os slides individuais
     }
 
-    .swiper-pagination {
-        .swiper-pagination-bullet-active {
-            background-color: $font_color-2;
-        }
+    .swiper-pagination-bullet-active {
+        background-color: $font_color-2;
     }
 
     .wisper-3d {
@@ -58,19 +56,16 @@
         }
         // Slide no geral
         &::before {
-            content: '';
-            background: $second_color;
-            border: 4px solid black;
-            border-radius: 40px;
-            box-shadow: 0 0 5px black, inset 5px 5px 20px black;
             height: 55vh;
-            inset: 1px;
             margin: 0 auto;
             margin-top: 35px;
-            position: absolute;
             padding: 0 20px;
             // Os slides individuais
         }
+    }
+
+    .swiper-pagination {
+        margin-bottom: 20px;
     }
 
     .titulo__first,
@@ -98,7 +93,8 @@
     }
 
     .titulo__first,
-    .titulo__second {
+    .titulo__second,
+    .titulo__third {
         font-size: 2.5rem;
     }
     
@@ -106,10 +102,17 @@
 
 @media (min-width: 1500px) {
     .swiper {
-        width: 120vh !important;
+        width: 100vh;
+        height: 60vh;
+        &::before {
+            height: 50vh;
+            margin-top: 58px;
+            // Os slides individuais
+        }
     }
     .titulo__first,
-    .titulo__second {
+    .titulo__second,
+    .titulo__third {
         font-size: 4rem;
     }
 }

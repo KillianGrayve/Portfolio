@@ -84,14 +84,14 @@ cite {
 @media (min-width: 0) {
     .sobre {
         align-items: center;
-        height: 140vh;
+        height: 100%;
         flex-direction: column;
         margin: 0 auto;
         justify-content: center;
         .box__img {
             height: 300px;
-            min-height: 200px;
-            min-width: 200px;
+            min-height: 150px;
+            min-width: 150px;
             padding: 0 !important;
             width: 200px;
             margin-top: 20px !important;
@@ -109,11 +109,11 @@ cite {
         }
 
         .sobre__txt {
+            padding: 0 10px;
             text-align: center;
             .sobre__txt-first {
                 // font-size / font-weight / margin-top
-                @include font-style(2.5rem, 700, 0px);
-                margin-bottom: 40px;
+                margin: 40px 0;
             }
             .sobre__txt-second {
                 @include font-style(2rem, 600, -30px);
@@ -138,6 +138,12 @@ cite {
     .box__img {
         display: none;
     }
+    .sobre__txt-first {
+        // font-size / font-weight / margin-top
+        @include font-style(2.5rem, 700, 90px);
+        margin-bottom: 40px;
+    }
+    
 }
 
 @media (min-width: 800px) {
