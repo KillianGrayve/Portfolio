@@ -94,7 +94,7 @@
     .projetos {
         align-items: center;
         display: flex;
-        height: calc(100vh - 80px);
+        height: calc(100vh - 20px);
         flex-direction: column;
     }
     .projetos__list {
@@ -102,7 +102,7 @@
     }
     .cards__container {
         flex-direction: row;
-        width: 100% !important;
+        width: 60% !important;
         height: 40vh !important;
     }
 }
