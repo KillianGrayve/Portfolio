@@ -65,7 +65,7 @@
     }
 
     .swiper-pagination {
-        margin-bottom: 20px;
+        margin-bottom: 0;
     }
 
     .titulo__first,
@@ -103,10 +103,10 @@
 @media (min-width: 1500px) {
     .swiper {
         width: 100vh;
-        height: 60vh;
+        height: 63vh;
         &::before {
             height: 50vh;
-            margin-top: 58px;
+            margin-top: 50px;
             // Os slides individuais
         }
     }
@@ -114,6 +114,10 @@
     .titulo__second,
     .titulo__third {
         font-size: 4rem;
+    }
+
+    .swiper-pagination {
+        margin-top: 20px;
     }
 }
 
