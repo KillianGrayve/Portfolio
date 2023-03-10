@@ -234,7 +234,7 @@ export default function Experiencia() {
                             txtFourth={
                                 <span>
                                     Servir os clientes com tudo (Bebidas, etc).
-                                    Limpeza no salão. Abrir e fechar pedidos e as vezes atuando como
+                                    Limpeza no salão. Abrir e fechar pedidos, também as vezes atuando como
                                     o caixa.{' '}
                                 </span>
                             }
@@ -245,7 +245,7 @@ export default function Experiencia() {
                             img="./img/experiencia_profissional/ReactHeart.png"
                             alt="Imagem React com coração"
                             txtFirst="React Project"
-                            txtSecond={<span>Profissionalmente eu não fiz nada em React mas...</span>}
+                            txtSecond={<span>Profissionalmente eu não fiz nada em React, mas...</span>}
                             txtThird="Nota"
                             txtFourth={
                                 <span>
@@ -267,7 +267,7 @@ export default function Experiencia() {
                             txtFourth={
                                 <span>
                                     Fazendo Chatbox, Goal, Eventlist para stream usando HTML, CSS e
-                                    JS. Editando vídeo e imagens (Thumbs+).
+                                    JS. Editando vídeos e imagens (Thumbs+).
                                 </span>
                             }
                         />

@@ -43,7 +43,7 @@
     }
     .btnCard {
         margin-top: 10px;
-        bottom: -200px;
+        bottom: -300px;
         padding: 5px 10px;
         &:hover .btn__link {
             color: $font_color-2;
@@ -59,55 +59,85 @@
 
 // @Mobile!
 
-
-
 @media (min-width: 0) {
     .card__project {
         height: 200px;
-        width: 35vh;
-        .card__project__content-txt {
-            &:hover .card__project__txt-first,
-            &:hover .btnCard {
-                bottom: -30px;
-            }
-        }
-    }
-    .card__project__tittle {
-        font-size: 1rem;
-    }
-
-    .card__project__txt-first {
-        font-size: .90rem;
-    }
-}
-
-@media (min-width: 400px) {
-    .card__project {
-        height: 180px;
         width: 50vh;
         .card__project__content-txt {
             &:hover .card__project__txt-first,
             &:hover .btnCard {
-                bottom: -30px;
+                bottom: -50px;
             }
         }
     }
     .card__project__tittle {
         font-size: 1.25rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .card__project__txt-first {
-        font-size: 1rem;
+        font-size: 0.9rem;
+        overflow-wrap: break-word;
+    }
+}
+
+@media (min-width: 400px) {
+    .card__project {
+        height: 250px;
+        width: 50vh;
+        .card__project__content-txt {
+            &:hover .card__project__txt-first,
+            &:hover .btnCard {
+                bottom: -85px;
+            }
+        }
+        .card__project__tittle {
+            font-size: 1.5rem;
+            
+        }
+        .card__project__txt-first {
+            font-size: 1rem;
+            overflow-wrap: break-word;
+        }
+        .btn__link {
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+        }
     }
 }
 
 @media (min-width: 800px) {
+}
+
+@media (min-width: 1500px) {
     .card__project {
-        height: 200px;
+        height: 350px;
+        .card__project__content-txt {
+            height: 325px;
+            padding: 14px;
+            position: relative;
+            transition: 0.3s;
+        }
         .card__project__content-txt {
             &:hover .card__project__txt-first,
             &:hover .btnCard {
-                bottom: -50px;
+                bottom: -140px;
+            }
+            .card__project__tittle {
+                font-size: 2.25rem;
+                
+            }
+            .card__project__txt-first {
+                font-size: 1.75rem;
+                overflow-wrap: break-word;
+            }
+            .btn__link {
+                color: black;
+                font-size: 26px;
+                text-decoration: none;
             }
         }
     }

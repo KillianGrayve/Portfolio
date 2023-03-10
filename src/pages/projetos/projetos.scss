@@ -71,7 +71,30 @@
     .projetos {
         align-items: center;
         display: flex;
-        height: 100vh;
+        height: 120vh;
+        flex-direction: column;
+    }
+    .projetos__list {
+        width: 75vw;
+    }
+    .cards__container {
+        flex-direction: row;
+        width: 100%;
+        
+    }
+}
+
+@media (min-width: 1100px) {
+    .projetos {
+        height: 122vh;
+    }
+}
+
+@media (min-width: 1500px) {
+    .projetos {
+        align-items: center;
+        display: flex;
+        height: calc(100vh - 80px);
         flex-direction: column;
     }
     .projetos__list {
