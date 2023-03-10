@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import { HiOutlineMail } from 'react-icons/hi';
 import { MdContentCopy } from 'react-icons/md';
 import Button from '../../components/button';
@@ -5,7 +6,7 @@ import './styleModal.scss';
 import './styleSobre.scss';
 
 export default function SobreContainer() {
-    const modal = document.querySelector('dialog');
+    const modalRef = useRef();
 
     // Copiar Email
     const copiar = () => {
@@ -13,12 +14,12 @@ export default function SobreContainer() {
         navigator.clipboard.writeText(email);
 
         // Mostrar modal
-        modal.showModal();
+        modalRef.current.showModal();
     };
 
     // Fechar modal
     const modalClose = () => {
-        modal.close();
+        modalRef.current.close();
     };
 
     return (
@@ -60,7 +61,7 @@ export default function SobreContainer() {
                     />
                 </div>
 
-                <dialog>
+                <dialog ref={modalRef}>
                     <h1 className="dialog__txt-first">Email Copiado!</h1>
                     <p className="dialog__txt-second">
                         Email: <code>Ericlideme.p@hotmail.com</code>
