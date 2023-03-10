@@ -30,6 +30,7 @@
 
     .swiper-pagination-bullet-active {
         background-color: $font_color-2;
+        
     }
 
     .wisper-3d {
@@ -66,6 +67,7 @@
 
     .swiper-pagination {
         margin-bottom: 0;
+        z-index: -1;
     }
 
     .titulo__first,
