@@ -96,7 +96,7 @@ export default function Experiencia() {
                             img="./img/experiencia_programacao/Sass.png"
                             alt="Imagem Sass"
                             txtFirst="Sass"
-                            txtSecond={<span>Programando em Sass desde 2022</span>}
+                            txtSecond={<span>Programando em Sass desde <br />2022</span>}
                             txtThird="Cursos"
                             txtFourth={
                                 <span>

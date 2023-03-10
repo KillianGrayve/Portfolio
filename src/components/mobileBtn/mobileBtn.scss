@@ -16,7 +16,7 @@
         gap: 5px;
         justify-content: center;
         margin: 0 auto;
-        padding: 15px 5px !important;
+        padding: 15px 5px 5px 5px!important;
         width: 50px;
         &:hover .navbar__mobile-box {
             background: $main_color;
@@ -45,7 +45,7 @@
             align-items: center;
             background-color: transparent;
             border-radius: 20px ;
-            bottom: 50px;
+            bottom: 40px;
             display: flex;
             height: 0px;
             padding: 10px;

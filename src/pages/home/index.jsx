@@ -8,16 +8,16 @@ import Socials from './socials';
 import './socials.scss';
 
 export default function Home() {
-    const list = [
-        { onde: '/home', title: 'Modo Horizontal', txt: <RxViewHorizontal /> },
-        { onde: '/homev', title: 'Modo Vertical', txt: <RxViewVertical /> },
+    const listAngles = [
+        { id: 1, onde: '/home', title: 'Modo Horizontal', txt: <RxViewHorizontal /> },
+        { id: 2, onde: '/homev', title: 'Modo Vertical', txt: <RxViewVertical /> },
     ];
 
     return (
         <section>
             <ul className="angles__list">
-                {list.map((e) => (
-                    <NavList key={e} onde={e.onde} classe='angles' txt={e.txt} title={e.title} />
+                {listAngles.map((e) => (
+                    <NavList key={e.id} onde={e.onde} classe='angles' txt={e.txt} title={e.title} />
                 ))}
             </ul>
             <div className="presentation">

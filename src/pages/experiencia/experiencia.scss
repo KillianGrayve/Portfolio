@@ -48,7 +48,7 @@
 
 @media (min-width: 0) {
     .swiper {
-        height: 68vh;
+        height: 45vh;
         margin: 0 auto !important;
         width: 100% !important;
         &:last-child {
@@ -56,9 +56,9 @@
         }
         // Slide no geral
         &::before {
-            height: 55vh;
+            height: 35vh;
             margin: 0 auto;
-            margin-top: 35px;
+            margin-top: 45px;
             padding: 0 20px;
             // Os slides individuais
         }
@@ -82,11 +82,11 @@
 
 @media (min-width: 800px) {
     .swiper {
-        height: 80vh;
-        width: 120vh !important;
+        height: 50vh;
+        width: 90vh !important;
         // Slide no geral
         &::before {
-            height: 65vh;
+            height: 40vh;
             margin-top: 40px;
             // Os slides individuais
         }
@@ -98,27 +98,6 @@
         font-size: 2.5rem;
     }
     
-}
-
-@media (min-width: 1500px) {
-    .swiper {
-        width: 100vh;
-        height: 63vh;
-        &::before {
-            height: 50vh;
-            margin-top: 50px;
-            // Os slides individuais
-        }
-    }
-    .titulo__first,
-    .titulo__second,
-    .titulo__third {
-        font-size: 4rem;
-    }
-
-    .swiper-pagination {
-        margin-top: 20px;
-    }
 }
 
 

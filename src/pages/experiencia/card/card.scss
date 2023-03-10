@@ -138,38 +138,3 @@
         }
     }
 }
-
-@media (min-width: 1500px) {
-    .card {
-        width: 500px;
-        height: 400px;
-        &:hover {
-            height: 630px;
-            transition: 0.3s;
-        }
-        .overlay {
-            height: 230px;
-        }
-        .card__img-container {
-            width: 220px;
-            height: 220px;
-        }
-        .card__txt-content {
-            .card__txt-first {
-                color: $font_color-2;
-                font-size: 3rem;
-            }
-            .card__txt-second,
-            .card__txt-fourth {
-                font-size: 2rem;
-                font-weight: 500;
-            }
-            .card__txt-third {
-                font-size: 2.5rem;
-                margin: 5px;
-                color: $font_color-2;
-                text-shadow: 0 0 4px black;
-            }
-        }
-    }
-}

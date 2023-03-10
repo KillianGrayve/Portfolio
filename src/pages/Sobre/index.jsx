@@ -38,17 +38,26 @@ export default function SobreContainer() {
                     </h1>
                     <h2 className="sobre__txt-second">São paulo, Capital</h2>
                     <p className="sobre__txt-third">
-                        Sou apaixonado pela programação e com tudo<br />que ela pode nos propor, estou sempre estudando mais<br /> e me aperfeiçoando para assim, ser melhor do que fui ontem.
-                        <br /><br />
-                        Meu primeiro contato com a programação foi em 2020 <br />com a linguagem C, mas só fui dar foco mesmo em <br />2022 com HTML, CSS e JS e
-                        desde então não quero mais parar!
+                        Sou apaixonado pela programação e com tudo
+                        <br />
+                        que ela pode nos propor, estou sempre estudando mais
+                        <br /> e me aperfeiçoando para assim, ser melhor do que fui ontem.
+                        <br />
+                        <br />
+                        Meu primeiro contato com a programação foi em 2020 <br />
+                        com a linguagem C, mas só fui dar foco mesmo em <br />
+                        2022 com HTML, CSS e JS e desde então não quero mais parar!
                     </p>
                 </div>
 
-                <div data-aos="fade-zoom" data-aos-delay="700" className='btn__container'>
+                <div data-aos="fade-zoom" data-aos-delay="700" className="btn__container">
                     <MdContentCopy className="copy" onClick={copiar} />
 
-                    <Button icon={<HiOutlineMail />} txt="Email" link='mailto:Ericlideme.p@hotmail.com'/>
+                    <Button
+                        icon={<HiOutlineMail />}
+                        txt="Email"
+                        link="mailto:Ericlideme.p@hotmail.com"
+                    />
                 </div>
 
                 <dialog>
@@ -56,7 +65,7 @@ export default function SobreContainer() {
                     <p className="dialog__txt-second">
                         Email: <code>Ericlideme.p@hotmail.com</code>
                     </p>
-                    <Button txt='Ok' class2='btnModal' fun={modalClose}/>
+                    <Button txt="Ok" class2="btnModal" fun={modalClose} />
                 </dialog>
             </div>
         </section>

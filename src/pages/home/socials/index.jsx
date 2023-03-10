@@ -5,21 +5,22 @@ import './angles.scss';
 import IconList from './iconList';
 
 export default function Social() {
-    const list = [
+    const listIcons = [
         {
+            id: 1,
             link: 'https://www.linkedin.com/in/eric-lideme-515417245/',
             classe: 'linkedin',
             icon: <RiLinkedinFill />,
         },
-        { link: 'https://github.com/EricLideme', classe: 'git', icon: <RiGithubFill /> },
-        { link: 'https://wa.me/11973458936', classe: 'whatsapp', icon: <RiWhatsappFill /> },
+        { id: 2, link: 'https://github.com/EricLideme', classe: 'git', icon: <RiGithubFill /> },
+        { id: 3, link: 'https://wa.me/11973458936', classe: 'whatsapp', icon: <RiWhatsappFill /> },
     ];
 
     return (
         <div>
             <ul className="social ">
-                {list.map((e) => (
-                    <IconList key={e} href={e.link} classe={e.classe} icon={e.icon} />
+                {listIcons.map((e) => (
+                    <IconList key={e.id} href={e.link} classe={e.classe} icon={e.icon} />
                 ))}
             </ul>
 

@@ -4,10 +4,10 @@ import './mobileBtn.scss';
 
 export default function MobileBtn() {
     const listNav = [
-        { onde: '/home', classe: 'links', txt: 'Home' },
-        { onde: '/sobre', classe: 'links', txt: 'Sobre' },
-        { onde: '/experiencia', classe: 'links', txt: 'Experiência' },
-        { onde: '/projetos', classe: 'links', txt: 'Projetos' },
+        {id: 1, onde: '/home', txt: 'Home' },
+        {id: 2, onde: '/sobre', txt: 'Sobre' },
+        {id: 3, onde: '/projetos', txt: 'Projetos' },
+        {id: 4, onde: '/experiencia', txt: 'Experiência' },
     ];
 
     return (
@@ -26,8 +26,8 @@ export default function MobileBtn() {
                 <nav className="navbar__mobile">
                     <div className="navbar__mobile-box">
                         <ul className="navbar__mobile-links">
-                            {listNav.map((item) => (
-                                <NavList key={item} onde={item.onde} classe={item.classe} txt={item.txt} />
+                            {listNav.map((e) => (
+                                <NavList key={e.id} onde={e.onde} classe='links' txt={e.txt} />
                             ))}
                         </ul>
                     </div>
