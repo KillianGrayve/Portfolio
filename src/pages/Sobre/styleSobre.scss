@@ -99,7 +99,7 @@ cite {
 
         .content__txt-first {
             // top / left / fonts-size / font-weight
-            @include content__txt(30%, 20px, 1.6rem, 700);
+            @include content__txt(30%, 20px, 2.6rem, 700);
         }
         .content__txt-second {
             @include content__txt(46%, 20px, 1rem, 500);
@@ -113,6 +113,7 @@ cite {
             text-align: center;
             .sobre__txt-first {
                 // font-size / font-weight / margin-top
+                @include font-style(3rem, 600, -30px);
                 margin: 40px 0;
             }
             .sobre__txt-second {
