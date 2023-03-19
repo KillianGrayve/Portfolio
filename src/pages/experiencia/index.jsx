@@ -79,7 +79,12 @@ export default function Experiencia() {
                             img="./img/experiencia_programacao/CSS.png"
                             alt="Imagem CSS"
                             txtFirst="CSS"
-                            txtSecond={<span>Programando em CSS <br />desde 2022</span>}
+                            txtSecond={
+                                <span>
+                                    Programando em CSS <br />
+                                    desde 2022
+                                </span>
+                            }
                             txtThird="Cursos"
                             txtFourth={
                                 <span>
@@ -96,7 +101,12 @@ export default function Experiencia() {
                             img="./img/experiencia_programacao/Sass.png"
                             alt="Imagem Sass"
                             txtFirst="Sass"
-                            txtSecond={<span>Programando em Sass desde <br />2022</span>}
+                            txtSecond={
+                                <span>
+                                    Programando em Sass desde <br />
+                                    2022
+                                </span>
+                            }
                             txtThird="Cursos"
                             txtFourth={
                                 <span>
@@ -127,10 +137,73 @@ export default function Experiencia() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <Card
+                            img="./img/experiencia_geral/MySql.png"
+                            alt="Imagem MySql"
+                            txtFirst="MySql"
+                            txtSecond={<span>Programando com MySql desde 2023</span>}
+                            txtThird="Cursos"
+                            txtFourth={
+                                <span>
+                                    Alura / YouTube <br />
+                                    <br />
+                                    (Experiência Média)
+                                </span>
+                            }
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Card
+                            img="./img/experiencia_geral/npm.png"
+                            alt="Imagem npm"
+                            txtFirst="npm"
+                            txtSecond={
+                                <span>
+                                    Usando npm desde <br />
+                                    2023
+                                </span>
+                            }
+                            txtThird="Cursos"
+                            txtFourth={
+                                <span>
+                                    Alura / YouTube <br />
+                                    <br />
+                                    (Experiência Média)
+                                </span>
+                            }
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Card
+                            img="./img/experiencia_geral/PHP.png"
+                            alt="Imagem PHP"
+                            txtFirst="PHP"
+                            txtSecond={
+                                <span>
+                                    Programando em PHP desde <br />
+                                    2023
+                                </span>
+                            }
+                            txtThird="Cursos"
+                            txtFourth={
+                                <span>
+                                    Alura / YouTube <br />
+                                    <br />
+                                    (Experiência Média)
+                                </span>
+                            }
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Card
                             img="./img/experiencia_programacao/Git.png"
                             alt="Imagem Git"
                             txtFirst="Git"
-                            txtSecond={<span>Estudando Git desde <br />2023</span>}
+                            txtSecond={
+                                <span>
+                                    Estudando Git desde <br />
+                                    2023
+                                </span>
+                            }
                             txtThird="Cursos"
                             txtFourth={
                                 <span>
@@ -147,7 +220,13 @@ export default function Experiencia() {
                             img="./img/experiencia_programacao/GitHub.png"
                             alt="Imagem GitHub"
                             txtFirst="GitHub"
-                            txtSecond={<span> Usando GitHub desde <br />2022</span>}
+                            txtSecond={
+                                <span>
+                                    {' '}
+                                    Usando GitHub desde <br />
+                                    2022
+                                </span>
+                            }
                             txtThird="Cursos"
                             txtFourth={
                                 <span>
@@ -218,8 +297,8 @@ export default function Experiencia() {
                             txtThird="Afazeres"
                             txtFourth={
                                 <span>
-                                    Servir os clientes com bebidas, pizzas e
-                                    doces. Limpeza pós festa e na ajuda de guardar os itens utilizados no evento.
+                                    Servir os clientes com bebidas, pizzas e doces. Limpeza pós
+                                    festa e na ajuda de guardar os itens utilizados no evento.
                                 </span>
                             }
                         />
@@ -233,9 +312,8 @@ export default function Experiencia() {
                             txtThird="Afazeres"
                             txtFourth={
                                 <span>
-                                    Servir os clientes com tudo (Bebidas, etc).
-                                    Limpeza no salão. Abrir e fechar pedidos, também as vezes atuando como
-                                    o caixa.{' '}
+                                    Servir os clientes com tudo (Bebidas, etc). Limpeza no salão.
+                                    Abrir e fechar pedidos, também as vezes atuando como o caixa.{' '}
                                 </span>
                             }
                         />
@@ -245,7 +323,9 @@ export default function Experiencia() {
                             img="./img/experiencia_profissional/ReactHeart.png"
                             alt="Imagem React com coração"
                             txtFirst="React Project"
-                            txtSecond={<span>Profissionalmente eu não fiz nada em React, mas...</span>}
+                            txtSecond={
+                                <span>Profissionalmente eu não fiz nada em React, mas...</span>
+                            }
                             txtThird="Nota"
                             txtFourth={
                                 <span>
@@ -260,9 +340,7 @@ export default function Experiencia() {
                             img="./img/experiencia_profissional/Freelancer.png"
                             alt="Imagem Freelancer"
                             txtFirst="Freelancer"
-                            txtSecond={
-                                <span>Atuei como freelancer desde 2022.</span>
-                            }
+                            txtSecond={<span>Atuei como freelancer desde 2022.</span>}
                             txtThird="Afazeres"
                             txtFourth={
                                 <span>
@@ -278,9 +356,7 @@ export default function Experiencia() {
                             alt="Imagem Relógio feito de seta"
                             txtFirst="Futuro"
                             txtSecond={
-                                <span>
-                                    Futuramente terei mais experiência profissional aqui!
-                                </span>
+                                <span>Futuramente terei mais experiência profissional aqui!</span>
                             }
                             txtThird="Aviso!"
                             txtFourth={
